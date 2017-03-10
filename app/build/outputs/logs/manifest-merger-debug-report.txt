@@ -2,14 +2,14 @@
 manifest
 ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:2:1-20:12
 	package
-		ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:3:5-46
+		ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:2:11-52
 		INJECTED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:3:11-69
 	android:versionCode
 		INJECTED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml
@@ -41,11 +41,11 @@ ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/Android
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
-ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:13:17-69
+ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:13:17-68
 	android:name
 		ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:15:17-76
 	android:name
 		ADDED from /Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
