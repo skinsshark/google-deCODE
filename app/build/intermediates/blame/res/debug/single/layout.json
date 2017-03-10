@@ -1,162 +1,326 @@
 [
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_time.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_lines_media.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_toolbar.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_action_tombstone.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_view.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_action.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_item_material.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_icon_group.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_up_container.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_title_material.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_content_include.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media_custom.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/yifan/AndroidStudioProjects/decode-Google/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     }
 ]

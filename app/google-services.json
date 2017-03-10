@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "340995080647",
+    "firebase_url": "https://decodewaterloo.firebaseio.com",
+    "project_id": "decodewaterloo",
+    "storage_bucket": "decodewaterloo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340995080647:android:30f9bbefd1b3d7d5",
+        "android_client_info": {
+          "package_name": "com.google_decode.decode_google"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340995080647-3e0ri2s98vpva6mjfh3j4ta04bvqmtf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google_decode.decode_google",
+            "certificate_hash": "ecb1ec6e558576790c4f33127ea9e55e2f57008c"
+          }
+        },
+        {
+          "client_id": "340995080647-85dgla9jjjocv6odbhej57hl1gte6m98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAchTmoknSwq_1R01juDVmVhwJC6Na9M9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340995080647-85dgla9jjjocv6odbhej57hl1gte6m98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
