@@ -29,26 +29,15 @@ public class DatabaseRetriever {
 
 
     }
-    public static void getMessage(){
-        // Read from the database
+
+    public static String getMessages(){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
-        
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                String value = dataSnapshot.getValue(String.class);
-                Log.d(TAG, "Value is: " + value);
+        return null;
+    }
 
-            }
+    public static void getMessage(){
+        // Read from the database
 
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w(TAG, "Failed to read value.", error.toException());
-            }
-        });
     }
 }

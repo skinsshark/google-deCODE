@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml
@@ -13,8 +13,20 @@ ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\a
 	android:versionCode
 		INJECTED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:6:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:7:19-67
 application
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:9:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Android\.android\build-cache\b8533138345259ad89c9fa476d9877ea96db398e\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.firebase:firebase-core:10.2.0] C:\Android\.android\build-cache\84b1363bedb222c759cd0eeeb597e204ae90e63c\output\AndroidManifest.xml:5:5-20
@@ -44,33 +56,33 @@ MERGED from [com.android.support:support-core-ui:25.1.0] C:\Android\.android\bui
 MERGED from [com.android.support:support-core-utils:25.1.0] C:\Android\.android\build-cache\98af9e19173a76ed628a82f9d7d02e8e05847ad0\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.1.0] C:\Android\.android\build-cache\85eae40a4d3d591ad88e7aced3c051d6077384d8\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.google_decode.decode_google.MainActivity
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:11:19-47
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.google_decode.decode_google.SignInActivity
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:18:9-61
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:22:9-61
 	android:name
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:18:19-49
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:22:19-49
 uses-sdk
 INJECTED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Android\.android\build-cache\b8533138345259ad89c9fa476d9877ea96db398e\output\AndroidManifest.xml:5:5-7:41
