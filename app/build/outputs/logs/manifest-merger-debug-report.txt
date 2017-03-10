@@ -16,6 +16,7 @@ ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\a
 application
 ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Android\.android\build-cache\b8533138345259ad89c9fa476d9877ea96db398e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.firebase:firebase-core:10.2.0] C:\Android\.android\build-cache\84b1363bedb222c759cd0eeeb597e204ae90e63c\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Android\.android\build-cache\4dcd8200c081461953369706d84f401e9925b704\output\AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Android\.android\build-cache\1852e7f7ae695a50ee5e51fee394ae33a0771297\output\AndroidManifest.xml:18:5-19
@@ -66,13 +67,15 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:15:27-74
-activity#com.google_decode.decode_google.SignIn
-ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:18:9-53
+activity#com.google_decode.decode_google.SignInActivity
+ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:18:9-61
 	android:name
-		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:18:19-41
+		ADDED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml:18:19-49
 uses-sdk
 INJECTED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Android\.android\build-cache\b8533138345259ad89c9fa476d9877ea96db398e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] C:\Android\.android\build-cache\865af3c99d527493a8e934b5da167dbb272bc0f8\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-core:10.2.0] C:\Android\.android\build-cache\84b1363bedb222c759cd0eeeb597e204ae90e63c\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-storage:10.2.0] C:\Android\.android\build-cache\64c6bc69abac90175e0664a9dcb137deafa1fec5\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-storage-common:10.2.0] C:\Android\.android\build-cache\c665a13124c9553cb0a52201cdd3de70f6c8e86e\output\AndroidManifest.xml:3:5-43
@@ -114,6 +117,24 @@ MERGED from [com.android.support:support-compat:25.1.0] C:\Android\.android\buil
 	android:minSdkVersion
 		INJECTED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\James\Documents\GitHub\Android\decode-google\google-deCODE\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Android\.android\build-cache\2586fdb00c2b63c29e470e3b046f395c4dae0fec\output\AndroidManifest.xml:24:18-63
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Android\.android\build-cache\29bb0da2b0eb76de6726926444de577aca5b3d40\output\AndroidManifest.xml:18:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Android\.android\build-cache\8df1eeee0db57fae75b923ff1cd10cd2a11371a0\output\AndroidManifest.xml:19:5-66
