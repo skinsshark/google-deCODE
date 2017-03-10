@@ -1,8 +1,10 @@
 package com.google_decode.decode_google;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -39,6 +41,20 @@ public class MainActivity extends AppCompatActivity {
             if (mFirebaseUser.getPhotoUrl() != null) {
                 mPhotoUrl = mFirebaseUser.getPhotoUrl().toString();
             }
+
+
+            final Button button = (Button) findViewById(R.id.btnTesting);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                   DatabaseRetriever.sendMessage();
+
+                    DatabaseRetriever.getMessage();
+                }
+            });
         }
+
+
+
+
     }
 }
