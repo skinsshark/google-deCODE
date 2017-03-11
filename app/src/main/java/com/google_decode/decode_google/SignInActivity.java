@@ -133,9 +133,7 @@ public class SignInActivity extends AppCompatActivity implements
                 // Google Sign-In failed
                 Log.e(TAG, "Google Sign-In failed.");
             }
-        }
-        else if(requestCode == FB_SIGN_IN)
-        {
+        } else if (requestCode == FB_SIGN_IN) {
             mCallbackManager.onActivityResult(requestCode, resultCode, data);
         }
     }
@@ -180,7 +178,9 @@ public class SignInActivity extends AppCompatActivity implements
         DatabaseReference users = mFirebaseDatabase.getReference("users");
         DatabaseReference newUser = users.child(currentUser.getUid());
         String userName = currentUser.getDisplayName() == null ? currentUser.getEmail() : currentUser.getDisplayName();
-        User user = new User(userName, currentUser.getUid());
+        final User user = new User();
+        user.name = userName;
+        user.uid = currentUser.getUid();
         Map<String, Object> postValues = user.create();
         newUser.updateChildren(postValues);
     }

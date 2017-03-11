@@ -39,12 +39,15 @@ import java.io.File;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google_decode.decode_google.entity.User;
 
 public class MainActivity extends AppCompatActivity {
 
     // Firebase instance variables
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser mFirebaseUser;
+    private FirebaseDatabase mFirebaseDatabase;
+    private DatabaseReference mUsers;
 
     private static final String TAG = "MainActivity";
     public static final String ANONYMOUS = "anonymous";
@@ -64,20 +67,27 @@ public class MainActivity extends AppCompatActivity {
 
         // Set default username is anonymous.
         mUsername = ANONYMOUS;
-        mFirebaseAuth = FirebaseAuth.getInstance();
-        mFirebaseUser = mFirebaseAuth.getCurrentUser();
-        uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg", "IMG_20170310_151727.jpg");
+        setupFirebase();
+
+//        uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg", "IMG_20170310_151727.jpg");
+
         //Log.v("ImageUpload",downloadUrl.toString());
         if (mFirebaseUser == null) {
             // Not signed in, launch the Sign In activity
             startActivity(new Intent(this, SignInActivity.class));
             finish();
         } else {
+            // set current user
+            User currentUser = new User();
+            currentUser.name = mFirebaseUser.getDisplayName();
+            currentUser.uid = mFirebaseUser.getUid();
+            Log.d(TAG, currentUser.toString());
+            App.setCurrentUser(currentUser);
+
             mUsername = mFirebaseUser.getDisplayName();
             if (mFirebaseUser.getPhotoUrl() != null) {
                 mPhotoUrl = mFirebaseUser.getPhotoUrl().toString();
             }
-
 
 //            final Button button = (Button) findViewById(R.id.btnTesting);
 //            button.setOnClickListener(new View.OnClickListener() {
@@ -148,6 +158,13 @@ public class MainActivity extends AppCompatActivity {
 
         isStoragePermissionGranted();
         isCameraPermissionGranted();
+    }
+
+    private void setupFirebase() {
+        mFirebaseAuth = FirebaseAuth.getInstance();
+        mFirebaseUser = mFirebaseAuth.getCurrentUser();
+        mFirebaseDatabase = FirebaseDatabase.getInstance();
+        mUsers = mFirebaseDatabase.getReference("users");
     }
 
     public boolean isStoragePermissionGranted() {

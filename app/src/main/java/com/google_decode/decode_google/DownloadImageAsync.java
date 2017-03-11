@@ -37,8 +37,6 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 
     @Override
     protected void onPreExecute() {
-        // TODO Auto-generated method stub
-
         super.onPreExecute();
 
         pDialog = new ProgressDialog(context);
@@ -51,8 +49,6 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 
     @Override
     protected String doInBackground(String... args) {
-        // TODO Auto-generated method stub
-
         InputStream is = null;
 
         try {
@@ -87,7 +83,7 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 
             File storageDir = context.getExternalFilesDir(Environment.DIRECTORY_PICTURES);
             File file = File.createTempFile(idStr, "jpg", storageDir);
-            Log.v("SavePictureThread" , "The location is: "+file.toString());
+            Log.v("SavePictureThread", "The location is: " + file.toString());
             FileOutputStream fos = new FileOutputStream(file);
             bmImg.compress(CompressFormat.JPEG, 75, fos);
             fos.flush();
@@ -95,8 +91,8 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 
             File imageFile = file;
             MediaScannerConnection.scanFile(context,
-                    new String[] { imageFile.getPath() },
-                    new String[] { "image/jpeg" }, null);
+                    new String[]{imageFile.getPath()},
+                    new String[]{"image/jpeg"}, null);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -114,8 +110,6 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 
     @Override
     protected void onPostExecute(String args) {
-        // TODO Auto-generated method stub
-
         if (bmImg == null) {
 
             Toast.makeText(context, "Image still loading...",
@@ -123,11 +117,9 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 
             pDialog.dismiss();
 
-        }
+        } else {
 
-        else {
-
-            if (pDialog!=null) {
+            if (pDialog != null) {
                 if (pDialog.isShowing()) {
                     pDialog.dismiss();
                 }

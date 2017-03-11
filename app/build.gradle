@@ -51,6 +51,10 @@ dependencies {
     // Helper library
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.google.code.gson:gson:2.8.0'
+
+    // Facebook
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
 
     // ZXing
     compile 'com.google.zxing:core:3.2.0'
