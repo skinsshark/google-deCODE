@@ -3,56 +3,51 @@ package com.google_decode.decode_google;
 import android.net.Uri;
 import android.util.Log;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+import com.google_decode.decode_google.entity.ImageMessage;
 
-/**
- * Created by James on 2017-03-10.
- */
+
 
 public class DatabaseRetriever {
 
     private static final String TAG = "DatabaseRetriever";
 
 
-    public static void sendMessage(String message){
+    public static void sendMessage(ImageMessage imageMessage){
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
 
-
-        //write to the database
-        myRef.setValue(message);
-
-
-
-
+        DatabaseReference mailBox = database.getReference("MailBox");
+        String index = mailBox.push().getKey();
+        int intIndex = Integer.parseInt(index) + 1;
+        imageMessage.setIndex(intIndex);
+        mailBox.child(Integer.toString(intIndex)).updateChildren(imageMessage.create());
+        Log.i(TAG, "Sent message from :" + currentUser.getUid());
     }
 
+    public static void deleteMessage(ImageMessage imageMessage){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference mailBox = database.getReference("MailBox");
+        mailBox.child(Integer.toString(imageMessage.getIndex())).setValue(null);
+    }
+/*
+    public static void readMessage(){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference mailBox = database.getReference("MailBox");
+        mailBox.orderByChild("toId").equalTo(FirebaseAuth.getInstance().getCurrentUser().getUid());
+    }
+    */
     public static void sendUri(Uri imageUri, String userName){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("UserName");
-
-
         //write to the database
         myRef.setValue(userName);
         myRef = database.getReference("Uri");
-
         myRef.setValue(imageUri.toString());
 
-
-    }
-
-    public static String getMessages(){
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
-        return null;
-    }
-
-    public static void getMessage(){
-        // Read from the database
 
     }
 }
