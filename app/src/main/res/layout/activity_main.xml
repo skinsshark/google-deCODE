@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -38,4 +44,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What up DEcode!!!" />
+
+    <ImageView
+        android:src="@drawable/ic_person_add_24dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/my_qr_icon" />
+
+
+
+
 </RelativeLayout>

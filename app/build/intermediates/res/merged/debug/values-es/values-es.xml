@@ -44,7 +44,6 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Seleccionar un modo de depuración"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Solucionar problemas"</string>
     <string msgid="6099173376375995052" name="decline">"Rechazar"</string>
-    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"¿Permitir que el anuncio almacene imágenes en la galería de imágenes?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Guardar imagen"</string>
