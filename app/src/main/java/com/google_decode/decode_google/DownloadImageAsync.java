@@ -1,9 +1,5 @@
 package com.google_decode.decode_google;
 
-/**
- * Created by nekhi on 3/10/2017.
- */
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -49,6 +45,8 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 
     @Override
     protected String doInBackground(String... args) {
+        // TODO Auto-generated method stub
+
         InputStream is = null;
 
         try {
@@ -82,8 +80,9 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
 //            File file = new File(dir, fileName);
 
             File storageDir = context.getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-            File file = File.createTempFile(idStr, "jpg", storageDir);
-            Log.v("SavePictureThread", "The location is: " + file.toString());
+            File file = new File(storageDir.toString() + "/DEcode.jpg");
+            //File file = File.cre("DEcode", "jpg", storageDir);
+            Log.v("SavePictureThread" , "The location is: "+file.toString());
             FileOutputStream fos = new FileOutputStream(file);
             bmImg.compress(CompressFormat.JPEG, 75, fos);
             fos.flush();
