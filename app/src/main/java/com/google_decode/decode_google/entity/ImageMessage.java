@@ -1,8 +1,14 @@
 package com.google_decode.decode_google.entity;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.gson.Gson;
+import com.google_decode.decode_google.FirebasePacket;
+
 import java.text.DateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ImageMessage {
@@ -16,8 +22,26 @@ public class ImageMessage {
     private  boolean status;
     private int width;
     private int height;
+    private FirebasePacket fp;
     private String index;
-    public ImageMessage(String from, String fromId, String to, String toId, String uri, int width, int height){
+
+
+    private static final Gson sGson = new Gson();
+
+    public static final String FROM = "from";
+    public static final String FROMID = "fromId";
+    public static final String TO = "to";
+    public static final String TOID = "toId";
+    public static final String URI = "uri";
+    public static final String TIMESTAMP = "timestamp";
+    public static final String INDEX = "index";
+    public static final String FIREBASEPACKET = "firebasepacket";
+    //public static final String IMG = "img";
+
+    public ImageMessage(){
+
+    }
+    public ImageMessage(String from, String fromId, String to, String toId, String uri, FirebasePacket fp){
         this.from = from;
         this.fromId = fromId;
         this.to = to;
@@ -25,8 +49,9 @@ public class ImageMessage {
         this.uri = uri;
         this.timestamp =  DateFormat.getDateTimeInstance().format(new Date());
         this.status = false;
-        this.height = height;
-        this.width = width;
+        this.fp = fp;
+        //this.height = height;
+        //this.width = width;
     }
 
     public String getFrom(){
@@ -59,10 +84,37 @@ public class ImageMessage {
         result.put("timestamp", timestamp);
         result.put("status", status);
         result.put("index", index);
-        result.put("height", height);
-        result.put("width", width);
-
+        //result.put("height", height);
+        //result.put("width", width);
+        result.put("firebasepacket", fp);
         return result;
 
+    }
+
+    public static List<ImageMessage> parseUserList(DataSnapshot dataSnapshot) {
+        List<ImageMessage> result = new ArrayList<>();
+
+        for (DataSnapshot snapshot: dataSnapshot.getChildren()){
+            result.add(parseSingleImage(snapshot));
+        }
+
+        return result;
+    }
+    public static ImageMessage parseSingleImage(DataSnapshot dataSnapshot) {
+        ImageMessage im = new ImageMessage();
+        im.fromId = dataSnapshot.child(FROMID).getValue() != null ?
+                dataSnapshot.child(FROMID).getValue().toString(): "Unknown from id";
+        im.from = dataSnapshot.child(FROM).getValue() != null ?
+                dataSnapshot.child(FROM).getValue().toString(): "Unknown from id";
+        im.to = dataSnapshot.child(TO).getValue() != null ?
+                dataSnapshot.child(TO).getValue().toString(): "Unknown from id";
+        im.toId = dataSnapshot.child(TOID).getValue() != null ?
+                dataSnapshot.child(TOID).getValue().toString(): "Unknown from id";
+        im.fromId = dataSnapshot.child(FROMID).getValue() != null ?
+                dataSnapshot.child(FROMID).getValue().toString(): "Unknown from id";
+        im.index = dataSnapshot.child(INDEX).getValue() != null ?
+                dataSnapshot.child(INDEX).getValue().toString(): "Unknown from id";
+        im.fp = (FirebasePacket)dataSnapshot.child(INDEX).getValue();
+        return im;
     }
 }
