@@ -12,12 +12,13 @@
     tools:context="com.google_decode.decode_google.MainActivity">
 
     <ImageView
-        android:src="@drawable/ic_person_add_24dp"
+        android:id="@+id/my_qr_icon"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:id="@+id/my_qr_icon" />
+        android:onClick="launchQr"
+        android:src="@drawable/ic_person_add_24dp" />
 
 
 
