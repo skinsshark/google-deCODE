@@ -48,6 +48,9 @@ dependencies {
     // Firebase UI
     compile 'com.firebaseui:firebase-ui-database:1.2.0'
 
+    // CircleImageView
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
     // Helper library
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
@@ -59,6 +62,7 @@ dependencies {
 
     //Facebook
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+
     // ZXing
     compile 'com.google.zxing:core:3.2.0'
     compile 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
