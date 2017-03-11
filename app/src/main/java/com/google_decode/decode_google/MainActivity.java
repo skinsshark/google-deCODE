@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     //camera stuff
     Button button;
+    Button downloadButton;
     ImageView imageView;
     Bitmap bmp;
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         mUsername = ANONYMOUS;
         mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseUser = mFirebaseAuth.getCurrentUser();
-        uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg", "IMG_20170310_151727.jpg");
+        //uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg", "IMG_20170310_151727.jpg");
         //Log.v("ImageUpload",downloadUrl.toString());
         if (mFirebaseUser == null) {
             // Not signed in, launch the Sign In activity
@@ -136,16 +137,45 @@ public class MainActivity extends AppCompatActivity {
 
                 Uri imageFileUri = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", imageFile);
 
-                //Uri imageFileUri = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", imageFile);
-
-                //Uri imageFileUri = Uri.fromFile(imageFile); // convert path to Uri
-
                 Intent camera_intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 camera_intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFileUri);
                 startActivityForResult(camera_intent, REQUEST_IMAGE_CAPTURE);
             }
         });
 
+        downloadButton = (Button) findViewById(R.id.downloadButton); //space? error??
+
+        downloadButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageView.setImageResource(android.R.color.transparent);
+                Log.v("test", "imageView cleared");
+
+                downloadPic(downloadUrl.toString());
+
+//                Context context = MainActivity.this;
+
+                //file path of where the pic is being stored
+                File storageDir = getApplicationContext().getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+                File file = new File(storageDir.toString() + "/DEcode.jpg");
+
+                String imageFilePath = file.toString();
+                Log.v("test", "filepath of the downloaded pic is " + imageFilePath);
+
+                //set imageView
+                imageView.setImageBitmap(BitmapFactory.decodeFile(imageFilePath));
+
+                //check if bmp is valid
+//                if (bmp != null) {
+//                    Log.v("test", "downloaded bmp is valid");
+//                } else {
+//                    Log.v("test", "downloaded bmp is NULL");
+//                }
+            }
+        });
+
+
+        //Get Permissions
         isStoragePermissionGranted();
         isCameraPermissionGranted();
     }
@@ -202,12 +232,14 @@ public class MainActivity extends AppCompatActivity {
             //pass intent
             bmp = BitmapFactory.decodeFile(imageFilePath);
 
+            //check if bmp is valid
             if (bmp != null) {
                 Log.v("test", "bmp is valid");
             } else {
                 Log.v("test", "bmp is NULL");
             }
 
+            //set imageView to our bmp
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
@@ -216,6 +248,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+            //upload to firebase
+            uploadPic(imageFilePath, "picture.jpg");
+
+            //download pic (testing only for now)
 
             //imageView.setImageBitmap(bmp);
             Log.v("test", "height: " + imageView.getHeight() + " and width: " + imageView.getWidth());
@@ -257,8 +293,8 @@ public class MainActivity extends AppCompatActivity {
                         downloadUrl = taskSnapshot.getDownloadUrl();
                         mFirebaseAuth = FirebaseAuth.getInstance();
                         mFirebaseUser = mFirebaseAuth.getCurrentUser();
-                        downloadPic(downloadUrl.toString());
-                        //downloadPic("IMG_20170310_151727.jpg");
+                        //downloadPic(downloadUrl.toString());
+                        //downloadPic(d);
 
                         //Uploads the image details to FireBase Database
                         //DatabaseRetriever.sendUri(downloadUrl,mFirebaseUser.getDisplayName());

@@ -20,7 +20,20 @@
         android:layout_alignParentStart="true"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="11dp"
-        android:text="Capture Image"/>
+        android:text="Capture Image"
+        android:layout_toLeftOf="@+id/downloadButton"
+        android:layout_toStartOf="@+id/downloadButton" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/my_qr_icon"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_toLeftOf="@+id/my_qr_icon"
+        android:layout_toStartOf="@+id/my_qr_icon"
+        android:text="Download Picture" />
 
     <ImageView
         android:id="@+id/image_view"
