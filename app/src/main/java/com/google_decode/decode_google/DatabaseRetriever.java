@@ -20,26 +20,36 @@ public class DatabaseRetriever {
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
-        DatabaseReference mailBox = database.getReference("MailBox");
-        String index = mailBox.push().getKey();
-        int intIndex = Integer.parseInt(index) + 1;
-        imageMessage.setIndex(intIndex);
-        mailBox.child(Integer.toString(intIndex)).updateChildren(imageMessage.create());
+        DatabaseReference mailBox = database
+                .getReference("users")
+                .child(imageMessage.getFromId())
+                .child("mailbox");
+        String key = mailBox.push().getKey();
+        imageMessage.setIndex(key);
+        mailBox.child(key).updateChildren(imageMessage.create());
         Log.i(TAG, "Sent message from :" + currentUser.getUid());
     }
 
-    public static void deleteMessage(ImageMessage imageMessage){
+    public static void deleteMessage(String key){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference mailBox = database.getReference("MailBox");
-        mailBox.child(Integer.toString(imageMessage.getIndex())).setValue(null);
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        String currentUserID = currentUser.getUid();
+        DatabaseReference mailBox = database.getReference("users")
+                .child(currentUserID)
+                .child("mailbox");
+
+        mailBox.child(key).removeValue();
+        Log.i(TAG, "Message key:" +key +" deleted.");
     }
-/*
+
     public static void readMessage(){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference mailBox = database.getReference("MailBox");
-        mailBox.orderByChild("toId").equalTo(FirebaseAuth.getInstance().getCurrentUser().getUid());
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        String currentUserID = currentUser.getUid();
+        DatabaseReference mailBox = database.getReference(currentUserID).child("mailbox");
+
     }
-    */
+
     public static void sendUri(Uri imageUri, String userName){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("UserName");
