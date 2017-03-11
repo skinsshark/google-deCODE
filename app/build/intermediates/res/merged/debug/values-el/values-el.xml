@@ -44,7 +44,6 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Επιλογή λειτουργίας εντοπισμού σφαλμάτων"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Αντιμετώπιση προβλημάτων"</string>
     <string msgid="6099173376375995052" name="decline">"Απόρριψη"</string>
-    <string msgid="146198913615257606" name="search_menu_title">"Αναζήτηση"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Να επιτραπεί στη διαφήμιση να αποθηκεύσει την εικόνα στο gallery;"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Αποθήκευση εικόνας"</string>

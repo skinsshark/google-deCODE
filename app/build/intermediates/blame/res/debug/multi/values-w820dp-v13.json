@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,37 +11,61 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 57,
-                        "endOffset": 348
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
                         "startOffset": 291,
                         "endColumn": 57,
                         "endOffset": 344
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/sharonzheng/Desktop/google-deCODE/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
                     }
                 }
             }

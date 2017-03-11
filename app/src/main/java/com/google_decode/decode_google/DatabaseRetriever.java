@@ -1,5 +1,6 @@
 package com.google_decode.decode_google;
 
+import android.net.Uri;
 import android.util.Log;
 
 import com.google.firebase.database.DataSnapshot;
@@ -26,6 +27,20 @@ public class DatabaseRetriever {
         myRef.setValue(message);
 
 
+
+
+    }
+
+    public static void sendUri(Uri imageUri, String userName){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("UserName");
+
+
+        //write to the database
+        myRef.setValue(userName);
+        myRef = database.getReference("Uri");
+
+        myRef.setValue(imageUri.toString());
 
 
     }
