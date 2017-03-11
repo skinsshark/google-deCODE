@@ -20,14 +20,14 @@
         app:civ_border_color="#474747"/>
 
     <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
+        android:id="@+id/google_sign_in_button"
         android:layout_marginTop="100dp"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"/>
 
     <com.facebook.login.widget.LoginButton
-        android:id="@+id/button_facebook_login"
+        android:id="@+id/facebook_sign_in_button"
         android:layout_width="185dp"
         android:layout_height="130dp"
         android:layout_gravity="center"
