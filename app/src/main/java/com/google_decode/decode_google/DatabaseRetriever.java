@@ -32,9 +32,14 @@ public class DatabaseRetriever {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference mailBox = database.getReference("MailBox");
         mailBox.child(Integer.toString(imageMessage.getIndex())).setValue(null);
-
-
     }
+/*
+    public static void readMessage(){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference mailBox = database.getReference("MailBox");
+        mailBox.orderByChild("toId").equalTo(FirebaseAuth.getInstance().getCurrentUser().getUid());
+    }
+    */
     public static void sendUri(Uri imageUri, String userName){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("UserName");
