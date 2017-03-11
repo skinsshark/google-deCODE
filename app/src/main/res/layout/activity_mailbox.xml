@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.google_decode.decode_google.mailbox">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="false"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="237dp"
@@ -13,7 +28,7 @@
         android:text="Picture from Bob"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="83dp" />
+        tools:layout_editor_absoluteY="37dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -21,5 +36,6 @@
         android:layout_height="63dp"
         app:srcCompat="@android:drawable/star_big_on"
         tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="83dp" />
+        tools:layout_editor_absoluteY="37dp" />
+
 </android.support.constraint.ConstraintLayout>

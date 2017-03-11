@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     //camera stuff
     Button button;
     Button downloadButton;
+    Button openMailButton;
     ImageView imageView;
     Bitmap bmp;
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -148,10 +149,6 @@ public class MainActivity extends AppCompatActivity {
         downloadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageView.setImageResource(android.R.color.transparent);
-                Log.v("test", "imageView cleared");
-
-                downloadPic(downloadUrl.toString());
 
 //                Context context = MainActivity.this;
 
@@ -171,6 +168,19 @@ public class MainActivity extends AppCompatActivity {
 //                } else {
 //                    Log.v("test", "downloaded bmp is NULL");
 //                }
+            }
+        });
+
+        openMailButton = (Button) findViewById(R.id.button3);
+
+        openMailButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //open up mailBox Activity
+                Intent myIntent = new Intent(MainActivity.this, mailbox.class);
+                startActivity(myIntent);
+
             }
         });
 
