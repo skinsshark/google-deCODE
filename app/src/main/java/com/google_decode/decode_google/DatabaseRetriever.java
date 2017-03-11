@@ -22,7 +22,7 @@ public class DatabaseRetriever {
 
         DatabaseReference mailBox = database
                 .getReference("users")
-                .child(imageMessage.getFromId())
+                .child(imageMessage.getToId())
                 .child("mailbox");
         String key = mailBox.push().getKey();
         imageMessage.setIndex(key);
