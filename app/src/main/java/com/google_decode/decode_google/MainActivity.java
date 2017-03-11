@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //                    DatabaseRetriever.getMessage();
 //                }
-//            });
+//            }); RANDOM
 
 
             FirebaseDatabase database = FirebaseDatabase.getInstance();
