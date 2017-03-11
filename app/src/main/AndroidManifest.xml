@@ -2,18 +2,11 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google_decode.decode_google">
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-<<<<<<< HEAD
-=======
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
->>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
-
-    <!--<uses-feature android:name="android.hardware.camera2"></uses-feature>-->
     <uses-feature android:name="android.hardware.camera2" android:required="true" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -50,6 +43,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar">
         </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
     </application>
 
 </manifest>
