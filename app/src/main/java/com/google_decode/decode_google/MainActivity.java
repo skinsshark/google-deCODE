@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
 
         new DownloadImageAsync(this).execute(src);
     }
-}
+
 
     @OnClick(R.id.my_qr_icon)
     public void launchQr(View v) {
