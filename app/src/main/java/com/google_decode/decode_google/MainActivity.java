@@ -76,38 +76,38 @@ public class MainActivity extends AppCompatActivity {
             }
 
 
-            final Button button = (Button) findViewById(R.id.btnTesting);
-            button.setOnClickListener(new View.OnClickListener() {
-                public void onClick(View v) {
-                   DatabaseRetriever.sendMessage("Working");
-
-                    DatabaseRetriever.getMessage();
-                }
-            });
+//            final Button button = (Button) findViewById(R.id.btnTesting);
+//            button.setOnClickListener(new View.OnClickListener() {
+//                public void onClick(View v) {
+//                   DatabaseRetriever.sendMessage("Working");
+//
+//                    DatabaseRetriever.getMessage();
+//                }
+//            });
 
 
 
             FirebaseDatabase database = FirebaseDatabase.getInstance();
             DatabaseReference myRef = database.getReference("message");
 
-            myRef.addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(DataSnapshot dataSnapshot) {
-                    // This method is called once with the initial value and again
-                    // whenever data at this location is updated.
-                    String value = dataSnapshot.getValue(String.class);
-                    Log.d(TAG, "Value is: " + value);
-                    final TextView textViewTesting = (TextView) findViewById(R.id.textViewTesting);
-                    textViewTesting.setText(value);
+//            myRef.addValueEventListener(new ValueEventListener() {
+//                @Override
+//                public void onDataChange(DataSnapshot dataSnapshot) {
+//                    // This method is called once with the initial value and again
+//                    // whenever data at this location is updated.
+//                    String value = dataSnapshot.getValue(String.class);
+//                    Log.d(TAG, "Value is: " + value);
+//                    final TextView textViewTesting = (TextView) findViewById(R.id.textViewTesting);
+//                    textViewTesting.setText(value);
+//
+//                }
 
-                }
-
-                @Override
-                public void onCancelled(DatabaseError error) {
-                    // Failed to read value
-                    Log.w(TAG, "Failed to read value.", error.toException());
-                }
-            });
+//                @Override
+//                public void onCancelled(DatabaseError error) {
+//                    // Failed to read value
+//                    Log.w(TAG, "Failed to read value.", error.toException());
+//                }
+//            });
         }
 
 
