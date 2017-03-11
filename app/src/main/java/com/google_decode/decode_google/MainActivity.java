@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.v("test", "height: " + imageView.getHeight() + " and width: " + imageView.getWidth());
         Log.v("test", "x and y coordinates: " + imageView.getX() + " " + imageView.getY());
-        button = (Button) findViewById(R.id.button); //space? error??
+        button = (Button) findViewById(R.id.button);
         //imageView = (ImageView)findViewById(R.id.image_view);
         //maybe fix - put this line on other section
         button.setOnClickListener(new View.OnClickListener() {
@@ -444,9 +444,17 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_my_qr:
                 launchQr();
                 return true;
+            case R.id.menu_list:
+                launchList();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void launchList() {
+        Intent intent = new Intent(MainActivity.this, ContactListActivity.class);
+        startActivity(intent);
     }
 
     public void launchQr() {

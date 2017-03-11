@@ -38,7 +38,7 @@ public class App extends Application {
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        currentUser = User.parseFirebaseData(dataSnapshot);
+                        currentUser = User.parseSingleUser(dataSnapshot);
                         Log.d("App", "Current user: " + currentUser.toString());
                     }
 

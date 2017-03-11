@@ -46,12 +46,13 @@ dependencies {
     compile 'com.google.firebase:firebase-appindexing:10.2.0'
 
     // Firebase UI
-    compile 'com.firebaseui:firebase-ui-database:0.4.0'
+    compile 'com.firebaseui:firebase-ui-database:1.2.0'
 
     // Helper library
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
 
     // Facebook
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'

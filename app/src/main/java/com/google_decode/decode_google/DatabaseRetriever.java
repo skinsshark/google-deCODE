@@ -20,9 +20,34 @@ public class DatabaseRetriever {
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
-        DatabaseReference mailBox = database.getReference("MailBox");
-        mailBox.child(currentUser.getUid()).updateChildren(imageMessage.create());
+        DatabaseReference mailBox = database
+                .getReference("users")
+                .child(imageMessage.getFromId())
+                .child("mailbox");
+        String key = mailBox.push().getKey();
+        imageMessage.setIndex(key);
+        mailBox.child(key).updateChildren(imageMessage.create());
         Log.i(TAG, "Sent message from :" + currentUser.getUid());
+    }
+
+    public static void deleteMessage(String key){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        String currentUserID = currentUser.getUid();
+        DatabaseReference mailBox = database.getReference("users")
+                .child(currentUserID)
+                .child("mailbox");
+
+        mailBox.child(key).removeValue();
+        Log.i(TAG, "Message key:" +key +" deleted.");
+    }
+
+    public static void readMessage(){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        String currentUserID = currentUser.getUid();
+        DatabaseReference mailBox = database.getReference(currentUserID).child("mailbox");
+
     }
 
     public static void sendUri(Uri imageUri, String userName){

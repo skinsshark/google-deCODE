@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/sign_in_layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+<RelativeLayout android:id="@+id/sign_in_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="sign in"
         android:textSize="30sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:text="sign in"/>
+        android:textStyle="bold"/>
 
     <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:id="@+id/google_sign_in_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
         android:layout_gravity="center"
-        android:visibility="visible" >
-
-    </com.google.android.gms.common.SignInButton>
+        android:visibility="visible"/>
 
     <com.facebook.login.widget.LoginButton
-    android:id="@+id/button_facebook_login"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom|center"
-    android:layout_marginTop="30dp"
-    android:layout_marginBottom="30dp" />
+        android:id="@+id/facebook_sign_in_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/google_sign_in_button"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"/>
 
-</FrameLayout>
+</RelativeLayout>

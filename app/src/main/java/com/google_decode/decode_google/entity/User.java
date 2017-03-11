@@ -8,17 +8,17 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
+import com.google.gson.JsonElement;
 import com.google.gson.reflect.TypeToken;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-/**
- * Created by yifan on 17/3/10.
- */
 
 public class User {
 
@@ -78,7 +78,7 @@ public class User {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // {name=Adam Yang, uid=2vVTI9dd26fhjJYRd435Anoj6im1, organization=[{name=Google, organization_id=100}, {name=Shopify, organization_id=200}]}
                 Log.d(TAG, "dataSnapshot.getValue():" + dataSnapshot.getValue());
-                User user = parseFirebaseData(dataSnapshot);
+                User user = parseSingleUser(dataSnapshot);
                 Log.d(TAG, user.toString());
                 callback.done(user);
             }
@@ -90,7 +90,17 @@ public class User {
         });
     }
 
-    public static User parseFirebaseData(DataSnapshot dataSnapshot) {
+    public static List<User> parseUserList(DataSnapshot dataSnapshot) {
+        List<User> result = new ArrayList<>();
+
+        for (DataSnapshot snapshot: dataSnapshot.getChildren()){
+            result.add(parseSingleUser(snapshot));
+        }
+
+        return result;
+    }
+
+    public static User parseSingleUser(DataSnapshot dataSnapshot) {
         User user = new User();
         user.name = dataSnapshot.child(NAME).getValue() != null ?
                 dataSnapshot.child(NAME).getValue().toString(): "Unknown username";
