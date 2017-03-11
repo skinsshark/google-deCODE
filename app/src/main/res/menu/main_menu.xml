@@ -8,4 +8,8 @@
         android:title="Add Me"
         app:showAsAction="always"/>
 
+    <item
+        android:id="@+id/menu_list"
+        android:title="List"/>
+
 </menu>
