@@ -3,6 +3,7 @@ package com.google_decode.decode_google;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.*;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -35,11 +36,16 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.security.PublicKey;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google_decode.decode_google.entity.User;
+
+import javax.crypto.SecretKey;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -186,6 +192,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Get Permissions
+        final Button button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                tryEncryptDecrypt();
+            }
+        });
+
         isStoragePermissionGranted();
         isCameraPermissionGranted();
     }
@@ -361,6 +374,98 @@ public class MainActivity extends AppCompatActivity {
         new DownloadImageAsync(this).execute(src);
     }
 
+    //testing encryption and decryption
+    public void tryEncryptDecrypt(){
+        RSA x = new RSA();
+        RSA y = new RSA();
+        AES z = new AES();
+
+//        Paint paint = new Paint();
+//        paint.setStyle(Paint.Style.FILL);
+//        paint.setColor(Color.RED);
+//        paint.setTextSize(16);
+//        paint.setAntiAlias(true);
+//        paint.setTypeface(Typeface.MONOSPACE);
+//        Bitmap initialImage = Bitmap.createBitmap(16, 16, Bitmap.Config.ARGB_8888);
+//        float xx = initialImage.getWidth();
+//        float yy = initialImage.getHeight();
+//        Canvas c = new Canvas(initialImage);
+//        c.drawText("Test", xx, yy, paint);
+
+        Bitmap initialImage;
+
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inPreferredConfig = Bitmap.Config.ARGB_8888;
+//        options.inJustDecodeBounds = true;
+
+        initialImage = BitmapFactory.decodeFile("/storage/extSdCard/DCIM/Camera/20170311_142752.jpg");
+        int width = initialImage.getWidth();
+        int height = initialImage.getHeight();
+        Log.v("bitmap0",initialImage.toString());
+//        ByteArrayOutputStream out = new ByteArrayOutputStream();
+//        initialImage.compress(Bitmap.CompressFormat.JPEG, 0, out);
+//        Bitmap decoded = BitmapFactory.decodeStream(new ByteArrayInputStream(out.toByteArray()));
+
+        Log.v("bitmap1","hi");
+
+        try{
+            byte[] bitmapToByte = RSA.bitmapToByte(initialImage);
+            Log.v("bitmap1",bitmapToByte.toString());
+            byte[] AESEncryptedArray = z.encrypt(bitmapToByte, z.key);
+            Log.v("bitmap2",AESEncryptedArray.toString());
+            Log.v("bitmap2",z.key.toString());
+
+            byte[] RSAEncryptedKey = RSA.wrapKey(y.getPubKey(), z.key);
+            Log.v("bitmap3",RSAEncryptedKey.toString());
+            SecretKey RSADecryptedKey = RSA.unwrapKey(y.privateKey, RSAEncryptedKey);
+            Log.v("bitmap4",RSADecryptedKey.toString());
+            byte[] AESDecryptedArray = z.decrypt(AESEncryptedArray, RSADecryptedKey);
+
+//          byte[] AESDecryptedArray = z.decrypt(AESEncryptedArray, z.key);
+            Log.v("bitmap5",AESDecryptedArray.toString());
+            Bitmap byteToBitmap = RSA.byteToBitmap(AESDecryptedArray, width, height);
+
+//            Bitmap byteToBitmap = RSA.byteToBitmap(bitmapToByte, initialImage);
+
+            imageView.setImageBitmap(byteToBitmap);
+            Log.v("bitmap6",byteToBitmap.toString());
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    //for person who's sending image
+    public void encryptImage(Bitmap initialImage, AES aesEncryption, PublicKey recipientPubKey){
+        try{
+            byte[] bitmapToByte = RSA.bitmapToByte(initialImage);
+            //Log.v("bitmap1",bitmapToByte.toString());
+            byte[] AESEncryptedArray = aesEncryption.encrypt(bitmapToByte, aesEncryption.key);
+            //Log.v("bitmap2",AESEncryptedArray.toString());
+            //Log.v("bitmap2",z.key.toString());
+            byte[] RSAEncryptedKey = RSA.wrapKey(recipientPubKey, aesEncryption.key);
+            //Log.v("bitmap3",RSAEncryptedKey.toString());
+
+            int width = initialImage.getWidth();
+            int height = initialImage.getHeight();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    //for person who's receiving image
+    public void decryptImage(int width, int height, AES aesDecryption, RSA recipientRSA, byte[] RSAEncryptedKey, byte[] AESEncryptedArray){
+        try{
+            SecretKey RSADecryptedKey = RSA.unwrapKey(recipientRSA.privateKey, RSAEncryptedKey);
+            //Log.v("bitmap4",RSADecryptedKey.toString());
+            byte[] AESDecryptedArray = aesDecryption.decrypt(AESEncryptedArray, RSADecryptedKey);
+            //Log.v("bitmap5",AESDecryptedArray.toString());
+            Bitmap byteToBitmap = RSA.byteToBitmap(AESDecryptedArray, width, height);
+            //imageView.setImageBitmap(byteToBitmap);
+            //Log.v("bitmap6",byteToBitmap.toString());
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
