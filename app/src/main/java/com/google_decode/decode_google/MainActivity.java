@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         mUsername = ANONYMOUS;
         mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseUser = mFirebaseAuth.getCurrentUser();
-        //uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg" , "IMG_20170310_151727.jpg");
+        uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg" , "IMG_20170310_151727.jpg");
         //Log.v("ImageUpload",downloadUrl.toString());
         if (mFirebaseUser == null) {
             // Not signed in, launch the Sign In activity
@@ -76,38 +76,38 @@ public class MainActivity extends AppCompatActivity {
             }
 
 
-//            final Button button = (Button) findViewById(R.id.btnTesting);
-//            button.setOnClickListener(new View.OnClickListener() {
-//                public void onClick(View v) {
-//                    DatabaseRetriever.sendMessage("Working");
-//
-//                    DatabaseRetriever.getMessage();
-//                }
-//            });
+            final Button button = (Button) findViewById(R.id.btnTesting);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                   DatabaseRetriever.sendMessage("Working");
+
+                    DatabaseRetriever.getMessage();
+                }
+            });
 
 
 
-//            FirebaseDatabase database = FirebaseDatabase.getInstance();
-//            DatabaseReference myRef = database.getReference("message");
-//
-//            myRef.addValueEventListener(new ValueEventListener() {
-//                @Override
-//                public void onDataChange(DataSnapshot dataSnapshot) {
-//                    // This method is called once with the initial value and again
-//                    // whenever data at this location is updated.
-//                    String value = dataSnapshot.getValue(String.class);
-//                    Log.d(TAG, "Value is: " + value);
-//                    final TextView textViewTesting = (TextView) findViewById(R.id.textViewTesting);
-//                    textViewTesting.setText(value);
-//
-//                }
-//
-//                @Override
-//                public void onCancelled(DatabaseError error) {
-//                    // Failed to read value
-//                    Log.w(TAG, "Failed to read value.", error.toException());
-//                }
-//            });
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRef = database.getReference("message");
+
+            myRef.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    // This method is called once with the initial value and again
+                    // whenever data at this location is updated.
+                    String value = dataSnapshot.getValue(String.class);
+                    Log.d(TAG, "Value is: " + value);
+                    final TextView textViewTesting = (TextView) findViewById(R.id.textViewTesting);
+                    textViewTesting.setText(value);
+
+                }
+
+                @Override
+                public void onCancelled(DatabaseError error) {
+                    // Failed to read value
+                    Log.w(TAG, "Failed to read value.", error.toException());
+                }
+            });
         }
 
 
@@ -136,8 +136,11 @@ public class MainActivity extends AppCompatActivity {
                         downloadUrl = taskSnapshot.getDownloadUrl();
                         mFirebaseAuth = FirebaseAuth.getInstance();
                         mFirebaseUser = mFirebaseAuth.getCurrentUser();
+                        downloadPic(downloadUrl.toString());
+                        //downloadPic("IMG_20170310_151727.jpg");
+
                         //Uploads the image details to FireBase Database
-                        DatabaseRetriever.sendUri(downloadUrl,mFirebaseUser.getDisplayName());
+                        //DatabaseRetriever.sendUri(downloadUrl,mFirebaseUser.getDisplayName());
                         Log.v("ImageUpload",downloadUrl.toString());
                     }
                 })
@@ -156,10 +159,7 @@ public class MainActivity extends AppCompatActivity {
         //This works using file name which downlaods directly from storage
 //        File localFile = null;
 //        try {
-//            File storageDir = getApplicationContext().getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-//            Log.v("Downloader" , storageDir.toString());
-//            localFile = File.createTempFile("downloadedImage", "jpg", storageDir);
-//            Log.v("Downloader" , "Local file made");
+//            localFile = File.createTempFile("images", "jpg");
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
