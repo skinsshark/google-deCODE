@@ -21,10 +21,20 @@ public class DatabaseRetriever {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
         DatabaseReference mailBox = database.getReference("MailBox");
-        mailBox.child(currentUser.getUid()).updateChildren(imageMessage.create());
+        String index = mailBox.push().getKey();
+        int intIndex = Integer.parseInt(index) + 1;
+        imageMessage.setIndex(intIndex);
+        mailBox.child(Integer.toString(intIndex)).updateChildren(imageMessage.create());
         Log.i(TAG, "Sent message from :" + currentUser.getUid());
     }
 
+    public static void deleteMessage(ImageMessage imageMessage){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference mailBox = database.getReference("MailBox");
+        mailBox.child(Integer.toString(imageMessage.getIndex())).setValue(null);
+
+
+    }
     public static void sendUri(Uri imageUri, String userName){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("UserName");
