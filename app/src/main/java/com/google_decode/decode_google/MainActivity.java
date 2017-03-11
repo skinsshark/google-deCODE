@@ -1,8 +1,19 @@
 package com.google_decode.decode_google;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.net.Uri;
 import android.support.annotation.NonNull;
+=======
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.os.Environment;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,11 +27,22 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+<<<<<<< HEAD
+=======
+import com.google.firebase.storage.FileDownloadTask;
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.File;
+<<<<<<< HEAD
+=======
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -52,7 +74,11 @@ public class MainActivity extends AppCompatActivity {
         mUsername = ANONYMOUS;
         mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseUser = mFirebaseAuth.getCurrentUser();
+<<<<<<< HEAD
         //uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg" , "IMG_20170310_151727.jpg");
+=======
+        uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg" , "IMG_20170310_151727.jpg");
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
         //Log.v("ImageUpload",downloadUrl.toString());
         if (mFirebaseUser == null) {
             // Not signed in, launch the Sign In activity
@@ -68,7 +94,11 @@ public class MainActivity extends AppCompatActivity {
 //            final Button button = (Button) findViewById(R.id.btnTesting);
 //            button.setOnClickListener(new View.OnClickListener() {
 //                public void onClick(View v) {
+<<<<<<< HEAD
 //                    DatabaseRetriever.sendMessage("Working");
+=======
+//                   DatabaseRetriever.sendMessage("Working");
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
 //
 //                    DatabaseRetriever.getMessage();
 //                }
@@ -76,9 +106,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+<<<<<<< HEAD
 //            FirebaseDatabase database = FirebaseDatabase.getInstance();
 //            DatabaseReference myRef = database.getReference("message");
 //
+=======
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRef = database.getReference("message");
+
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
 //            myRef.addValueEventListener(new ValueEventListener() {
 //                @Override
 //                public void onDataChange(DataSnapshot dataSnapshot) {
@@ -90,7 +126,11 @@ public class MainActivity extends AppCompatActivity {
 //                    textViewTesting.setText(value);
 //
 //                }
+<<<<<<< HEAD
 //
+=======
+
+>>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
 //                @Override
 //                public void onCancelled(DatabaseError error) {
 //                    // Failed to read value
@@ -165,6 +205,86 @@ public class MainActivity extends AppCompatActivity {
 //            });
 //        }
 //    }
+
+    @OnClick(R.id.my_qr_icon)
+    public void launchQr(View v) {
+        Intent getBarcode = new Intent(MainActivity.this,QRBarcodeActivity.class);
+        startActivity(getBarcode);
+        finish();
+    }
+
+    //Accepts the local file location of the image as well as the name that should be used to store the image on FireBase.
+    private void uploadPic(String fileLoc, String fileName){
+        //Setting up FireBase
+        StorageReference mStorageRef;
+        mStorageRef = FirebaseStorage.getInstance().getReference();
+
+        //Retrieving Local Image URI
+        Uri file = Uri.fromFile(new File(fileLoc));
+        StorageReference riversRef = mStorageRef.child("/images/"+fileName);
+
+        //Uploading the file to FireBase storage
+        riversRef.putFile(file)
+                .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                    @Override
+                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                        // Get a URL to the uploaded content
+                        //The url of the file online
+                        //noinspection VisibleForTests
+                        downloadUrl = taskSnapshot.getDownloadUrl();
+                        mFirebaseAuth = FirebaseAuth.getInstance();
+                        mFirebaseUser = mFirebaseAuth.getCurrentUser();
+                        downloadPic(downloadUrl.toString());
+                        //downloadPic("IMG_20170310_151727.jpg");
+
+                        //Uploads the image details to FireBase Database
+                        //DatabaseRetriever.sendUri(downloadUrl,mFirebaseUser.getDisplayName());
+                        Log.v("ImageUpload",downloadUrl.toString());
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception exception) {
+                        // Handle unsuccessful uploads
+                        // ...
+                        Toast.makeText(getApplicationContext(),"Sorry the file wasn't sent!",Toast.LENGTH_LONG).show();
+                    }
+                });
+
+    }
+
+    private void downloadPic(String src ){
+        //This works using file name which downlaods directly from storage
+//        File localFile = null;
+//        try {
+//            localFile = File.createTempFile("images", "jpg");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        StorageReference mStorageRef;
+//        mStorageRef = FirebaseStorage.getInstance().getReference();
+//        StorageReference riversRef = mStorageRef.child("/images/"+fileName);
+//        if (localFile != null) {
+//            riversRef.getFile(localFile)
+//                    .addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+//                        @Override
+//                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+//                            // Successfully downloaded data to local file
+//                            // ...
+//                            Log.v("Downloader" , "File downloaded and stored");
+//                        }
+//                    }).addOnFailureListener(new OnFailureListener() {
+//                @Override
+//                public void onFailure(@NonNull Exception exception) {
+//                    // Handle failed download
+//                    // ...
+//                }
+//            });
+//        }
+
+        new DownloadImageAsync(this).execute(src);
+    }
+
 
     @OnClick(R.id.my_qr_icon)
     public void launchQr(View v) {
