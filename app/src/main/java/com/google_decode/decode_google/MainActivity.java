@@ -1,6 +1,5 @@
 package com.google_decode.decode_google;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -9,68 +8,43 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.FileProvider;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.util.Log;
 import android.content.pm.PackageManager;
-import android.Manifest.permission;
 import android.os.Build;
-import android.Manifest.permission_group;
 import android.content.Context;
 
-
 import com.google.firebase.appindexing.Action;
-import com.google.firebase.appindexing.FirebaseUserActions;
 import com.google.firebase.appindexing.builders.Actions;
+
 import android.support.annotation.NonNull;
-import android.os.Bundle;
-import android.util.Log;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-import butterknife.OnClick;
-
-import java.io.File;
-
-public class MainActivity extends Activity{ //used to be "extends AppCompatActivity"
-    //will i get an error for changing to activity ??
+public class MainActivity extends AppCompatActivity {
 
     // Firebase instance variables
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser mFirebaseUser;
-
 
     private static final String TAG = "MainActivity";
     public static final String ANONYMOUS = "anonymous";
@@ -92,7 +66,7 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
         mUsername = ANONYMOUS;
         mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseUser = mFirebaseAuth.getCurrentUser();
-        uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg" , "IMG_20170310_151727.jpg");
+        uploadPic("/storage/emulated/0/DCIM/Camera/IMG_20170310_151727.jpg", "IMG_20170310_151727.jpg");
         //Log.v("ImageUpload",downloadUrl.toString());
         if (mFirebaseUser == null) {
             // Not signed in, launch the Sign In activity
@@ -113,7 +87,6 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
 //                    DatabaseRetriever.getMessage();
 //                }
 //            });
-
 
 
             FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -141,13 +114,13 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imageView = (ImageView)findViewById(R.id.image_view);
+        imageView = (ImageView) findViewById(R.id.image_view);
         imageView.setAdjustViewBounds(false);
         imageView.setBackgroundColor(0xff0000);
 
         Log.v("test", "height: " + imageView.getHeight() + " and width: " + imageView.getWidth());
         Log.v("test", "x and y coordinates: " + imageView.getX() + " " + imageView.getY());
-        button = (Button)findViewById(R.id.button); //space? error??
+        button = (Button) findViewById(R.id.button); //space? error??
         //imageView = (ImageView)findViewById(R.id.image_view);
         //maybe fix - put this line on other section
         button.setOnClickListener(new View.OnClickListener() {
@@ -168,50 +141,46 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
                 //Uri imageFileUri = Uri.fromFile(imageFile); // convert path to Uri
 
                 Intent camera_intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                camera_intent.putExtra (MediaStore.EXTRA_OUTPUT, imageFileUri);
+                camera_intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFileUri);
                 startActivityForResult(camera_intent, REQUEST_IMAGE_CAPTURE);
             }
         });
 
         isStoragePermissionGranted();
         isCameraPermissionGranted();
-
     }
 
-    public  boolean isStoragePermissionGranted() {
+    public boolean isStoragePermissionGranted() {
         if (Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
                     == PackageManager.PERMISSION_GRANTED) {
-                Log.v("test","Permission is granted");
+                Log.v("test", "Permission is granted");
                 return true;
             } else {
-
-                Log.v("test","Permission is revoked");
+                Log.v("test", "Permission is revoked");
                 ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
                 return false;
             }
-        }
-        else { //permission is automatically granted on sdk<23 upon installation
-            Log.v("test","Permission is granted");
+        } else { //permission is automatically granted on sdk<23 upon installation
+            Log.v("test", "Permission is granted");
             return true;
         }
     }
 
-    public  boolean isCameraPermissionGranted() {
+    public boolean isCameraPermissionGranted() {
         if (Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(android.Manifest.permission.CAMERA)
                     == PackageManager.PERMISSION_GRANTED) {
-                Log.v("test","camera Permission is granted");
+                Log.v("test", "camera Permission is granted");
                 return true;
             } else {
 
-                Log.v("test","camera Permission is revoked");
+                Log.v("test", "camera Permission is revoked");
                 ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.CAMERA}, 1);
                 return false;
             }
-        }
-        else { //permission is automatically granted on sdk<23 upon installation
-            Log.v("test","camera Permission is granted");
+        } else { //permission is automatically granted on sdk<23 upon installation
+            Log.v("test", "camera Permission is granted");
             return true;
         }
     }
@@ -248,7 +217,6 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
             });
 
 
-
             //imageView.setImageBitmap(bmp);
             Log.v("test", "height: " + imageView.getHeight() + " and width: " + imageView.getWidth());
             Log.v("test", "x and y coordinates: " + imageView.getX() + " " + imageView.getY());
@@ -269,14 +237,14 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
 
 
     //Accepts the local file location of the image as well as the name that should be used to store the image on FireBase.
-    private void uploadPic(String fileLoc, String fileName){
+    private void uploadPic(String fileLoc, String fileName) {
         //Setting up FireBase
         StorageReference mStorageRef;
         mStorageRef = FirebaseStorage.getInstance().getReference();
 
         //Retrieving Local Image URI
         Uri file = Uri.fromFile(new File(fileLoc));
-        StorageReference riversRef = mStorageRef.child("/images/"+fileName);
+        StorageReference riversRef = mStorageRef.child("/images/" + fileName);
 
         //Uploading the file to FireBase storage
         riversRef.putFile(file)
@@ -294,7 +262,7 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
 
                         //Uploads the image details to FireBase Database
                         //DatabaseRetriever.sendUri(downloadUrl,mFirebaseUser.getDisplayName());
-                        Log.v("ImageUpload",downloadUrl.toString());
+                        Log.v("ImageUpload", downloadUrl.toString());
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -302,13 +270,13 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
                     public void onFailure(@NonNull Exception exception) {
                         // Handle unsuccessful uploads
                         // ...
-                        Toast.makeText(getApplicationContext(),"Sorry the file wasn't sent!",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Sorry the file wasn't sent!", Toast.LENGTH_LONG).show();
                     }
                 });
 
     }
 
-    private void downloadPic(String src ){
+    private void downloadPic(String src) {
         //This works using file name which downlaods directly from storage
 //        File localFile = null;
 //        try {
@@ -341,7 +309,6 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
     }
 
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -362,7 +329,7 @@ public class MainActivity extends Activity{ //used to be "extends AppCompatActiv
 
     public void launchQr() {
         Log.d(TAG, "onclick");
-        Intent getBarcode = new Intent(MainActivity.this,QRBarcodeActivity.class);
+        Intent getBarcode = new Intent(MainActivity.this, QRBarcodeActivity.class);
         startActivity(getBarcode);
     }
 }
