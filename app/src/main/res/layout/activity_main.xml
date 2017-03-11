@@ -63,4 +63,5 @@
         android:layout_above="@+id/image_view"
         android:layout_toLeftOf="@+id/my_qr_icon"
         android:layout_toStartOf="@+id/my_qr_icon" />
+
 </RelativeLayout>
