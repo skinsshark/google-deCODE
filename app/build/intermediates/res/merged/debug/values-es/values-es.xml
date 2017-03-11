@@ -20,6 +20,29 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
     <string msgid="5835639618285370804" name="accept">"Aceptar"</string>
+    <string name="com_facebook_device_auth_instructions">Visita &lt;b>facebook.com/device&lt;/b> e ingresa el código que se muestra arriba.</string>
+    <string name="com_facebook_image_download_unknown_error">Se produjo un error inesperado al descargar una imagen.</string>
+    <string name="com_facebook_internet_permission_error_message">El inicio de sesión a la web requiere permiso de conexión a internet</string>
+    <string name="com_facebook_internet_permission_error_title">Error AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Te gusta</string>
+    <string name="com_facebook_like_button_not_liked">Me gusta</string>
+    <string name="com_facebook_loading">Cargando…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string name="com_facebook_loginview_log_in_button">Inicio de sesión</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continuar con Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Iniciar sesión con Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Salir</string>
+    <string name="com_facebook_loginview_log_out_button">Salir</string>
+    <string name="com_facebook_loginview_logged_in_as">Sesión iniciada como: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Sesión iniciada con Facebook</string>
+    <string name="com_facebook_send_button_text">Enviar</string>
+    <string name="com_facebook_share_button_text">Compartir</string>
+    <string name="com_facebook_smart_device_instructions">Para conectar tu cuenta, abre la aplicación de Facebook en tu dispositivo móvil y comprueba las notificaciones.</string>
+    <string name="com_facebook_smart_device_instructions_or">- O -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">¿No eres tú?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">Continuar como %1$s</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirmar inicio de sesión</string>
+    <string name="com_facebook_tooltip_default">Tú decides: elige qué información quieres compartir con las aplicaciones.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Habilitar"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites Servicios de Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Habilita Servicios de Google Play"</string>
@@ -44,7 +67,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Seleccionar un modo de depuración"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Solucionar problemas"</string>
     <string msgid="6099173376375995052" name="decline">"Rechazar"</string>
+    <string name="messenger_send_button_text">Enviar</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"¿Permitir que el anuncio almacene imágenes en la galería de imágenes?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Guardar imagen"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Lo sentimos, la cámara de Android ha encontrado un problema. Es posible que necesite reiniciar el dispositivo.</string>
+    <string name="zxing_msg_default_status">Coloque un código de barras en el interior del rectángulo del visor para escanear.</string>
 </resources>

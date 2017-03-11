@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Zdieľať pomocou %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Zbaliť"</string>
     <string msgid="5835639618285370804" name="accept">"Prijať"</string>
+    <string name="com_facebook_device_auth_instructions">Navštívte stránku &lt;b>facebook.com/device&lt;/b> a zadajte kód zobrazený vyššie.</string>
+    <string name="com_facebook_image_download_unknown_error">Pri sťahovaní obrázka sa vyskytla neočakávaná chyba.</string>
+    <string name="com_facebook_internet_permission_error_message">Na prihlásenie sa v rozhraní WebView sa vyžaduje povolenie pre INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Chyba súboru AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Páči sa mi to</string>
+    <string name="com_facebook_like_button_not_liked">Páči sa mi to</string>
+    <string name="com_facebook_loading">Načítava sa…</string>
+    <string name="com_facebook_loginview_cancel_action">Zrušiť</string>
+    <string name="com_facebook_loginview_log_in_button">Prihlásiť sa</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Pokračovať s Facebookom</string>
+    <string name="com_facebook_loginview_log_in_button_long">Prihlásiť sa cez Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Odhlásiť sa</string>
+    <string name="com_facebook_loginview_log_out_button">Odhlásiť sa</string>
+    <string name="com_facebook_loginview_logged_in_as">Prihlásený ako: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Prihlásený cez Facebook</string>
+    <string name="com_facebook_send_button_text">Odoslať</string>
+    <string name="com_facebook_share_button_text">Zdieľať</string>
+    <string name="com_facebook_smart_device_instructions">Na pripojenie svojho účtu otvorte vo svojom mobilnom zariadení aplikáciu Facebook a skontrolujte upozornenia.</string>
+    <string name="com_facebook_smart_device_instructions_or">- ALEBO -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Nie ste to vy?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Potvrdiť prihlásenie</string>
+    <string name="com_facebook_tooltip_default">Máte to pod kontrolou: vyberte, ktoré informácie chcete zdieľať s aplikáciami.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Povoliť"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> bude fungovať až po povolení služieb Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Povoliť služby Google Play"</string>
@@ -44,7 +66,12 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Vybrať režim ladenia"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Riešenie problémov"</string>
     <string msgid="6099173376375995052" name="decline">"Odmietnuť"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Vyhľadávanie"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Povoliť reklame uložiť obrázok do galérie obrázkov?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Uloženie obrázka"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Ospravedlňujeme sa, fotoaparát narazil na problém. Možno bude potrebné reštartovať zariadenie.</string>
+    <string name="zxing_msg_default_status">Umiestnite čiarový kód do vnútra obdĺžnika hľadáčiku pre skenovanie</string>
 </resources>

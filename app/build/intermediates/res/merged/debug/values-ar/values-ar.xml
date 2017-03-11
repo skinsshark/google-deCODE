@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
     <string msgid="5835639618285370804" name="accept">"قبول"</string>
+    <string name="com_facebook_device_auth_instructions">تفضل بزيارة &lt;b>facebook.com/device&lt;/b> وإدخال الرمز الموضح أدناه.</string>
+    <string name="com_facebook_image_download_unknown_error">حدث خطأ غير متوقع أثناء تنزيل صورة.</string>
+    <string name="com_facebook_internet_permission_error_message">يتطلب تسجيل الدخول إلى WebView إذن الاتصال بالإنترنت</string>
+    <string name="com_facebook_internet_permission_error_title">خطأ AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">أعجبني</string>
+    <string name="com_facebook_like_button_not_liked">إعجاب</string>
+    <string name="com_facebook_loading">جارٍ التحميل…</string>
+    <string name="com_facebook_loginview_cancel_action">إلغاء</string>
+    <string name="com_facebook_loginview_log_in_button">تسجيل الدخول</string>
+    <string name="com_facebook_loginview_log_in_button_continue">متابعة بحساب فيسبوك</string>
+    <string name="com_facebook_loginview_log_in_button_long">تسجيل الدخول بحساب فيسبوك</string>
+    <string name="com_facebook_loginview_log_out_action">تسجيل الخروج</string>
+    <string name="com_facebook_loginview_log_out_button">تسجيل الخروج</string>
+    <string name="com_facebook_loginview_logged_in_as">تم تسجيل الدخول باسم: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">تم تسجيل الدخول بحساب فيسبوك</string>
+    <string name="com_facebook_send_button_text">إرسال</string>
+    <string name="com_facebook_share_button_text">مشاركة</string>
+    <string name="com_facebook_smart_device_instructions">لربط حسابك، افتح تطبيق فيسبوك على جهازك المحمول ثم تفقد الإشعارات.</string>
+    <string name="com_facebook_smart_device_instructions_or">- أو -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">لست أنت؟</string>
+    <string name="com_facebook_smart_login_confirmation_title">تأكيد تسجيل الدخول</string>
+    <string name="com_facebook_tooltip_default">أنت المتحكم - اختر المعلومات التي تريد مشاركتها مع التطبيقات.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تمكين"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تمكين خدمات Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"تحديد وضع تصحيح الأخطاء"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"تحرّي الخلل وإصلاحه"</string>
     <string msgid="6099173376375995052" name="decline">"رفض"</string>
+    <string name="messenger_send_button_text">إرسال</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"حفظ الصورة"</string>
+    <string name="zxing_app_name">ماسح الرمز الشريطي</string>
+    <string name="zxing_button_ok">موافق</string>
+    <string name="zxing_msg_camera_framework_bug">عفوا، حدثت مشكلة في كاميرا جهاز Android. قد تحتاج إلى إعادة تشغيل الجهاز.</string>
+    <string name="zxing_msg_default_status">قم بوضع الرمز الشريطي داخل حدود صورة الكاميرا ليتم مسحه.</string>
 </resources>

@@ -111,9 +111,6 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
     protected void onPostExecute(String args) {
         if (bmImg == null) {
 
-            Toast.makeText(context, "Image still loading...",
-                    Toast.LENGTH_SHORT).show();
-
             pDialog.dismiss();
 
         } else {
@@ -123,9 +120,6 @@ public class DownloadImageAsync extends AsyncTask<String, String, String> {
                     pDialog.dismiss();
                 }
             }
-
-            Toast.makeText(context, "Image Saved Succesfully",
-                    Toast.LENGTH_SHORT).show();
 
         }
     }

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,59 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 6,
-                        "endColumn": 13,
-                        "endOffset": 327
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 6,
-                    "endColumn": 13,
-                    "endOffset": 327
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 6,
-                        "endColumn": 13,
-                        "endOffset": 327
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 6,
-                    "endColumn": 13,
-                    "endOffset": 327
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

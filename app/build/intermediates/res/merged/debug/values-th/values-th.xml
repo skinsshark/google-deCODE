@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"แชร์กับ %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ยุบ"</string>
     <string msgid="5835639618285370804" name="accept">"ยอมรับ"</string>
+    <string name="com_facebook_device_auth_instructions">ไปที่ &lt;b>facebook.com/device&lt;/b> และใส่โค้ดที่แสดงด้านบน</string>
+    <string name="com_facebook_image_download_unknown_error">เกิดข้อผิดพลาดที่ไม่คาดคิดขณะดาวน์โหลดรูปภาพ</string>
+    <string name="com_facebook_internet_permission_error_message">การเข้าสู่ระบบ WebView จำเป็นต้องได้รับอนุญาตจากอินเทอร์เน็ต</string>
+    <string name="com_facebook_internet_permission_error_title">ข้อผิดพลาดของ AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">ถูกใจแล้ว</string>
+    <string name="com_facebook_like_button_not_liked">ถูกใจ</string>
+    <string name="com_facebook_loading">กำลังโหลด…</string>
+    <string name="com_facebook_loginview_cancel_action">ยกเลิก</string>
+    <string name="com_facebook_loginview_log_in_button">เข้าสู่ระบบ</string>
+    <string name="com_facebook_loginview_log_in_button_continue">ดำเนินการต่อด้วย Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">เข้าสู่ระบบด้วย Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">ออกจากระบบ</string>
+    <string name="com_facebook_loginview_log_out_button">ออกจากระบบ</string>
+    <string name="com_facebook_loginview_logged_in_as">เข้าสู่ระบบในชื่อ: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">เข้าสู่ระบบโดยใช้ Facebook</string>
+    <string name="com_facebook_send_button_text">ส่ง</string>
+    <string name="com_facebook_share_button_text">แชร์</string>
+    <string name="com_facebook_smart_device_instructions">หากต้องการเชื่อมต่อบัญชีผู้ใช้ของคุณ ให้เปิดแอพ Facebook บนอุปกรณ์มือถือของคุณและตรวจสอบการแจ้งเตือน</string>
+    <string name="com_facebook_smart_device_instructions_or">- หรือ -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">หากไม่ใช่คุณ</string>
+    <string name="com_facebook_smart_login_confirmation_title">ยืนยันการเข้าสู่ระบบ</string>
+    <string name="com_facebook_tooltip_default">คุณเป็นฝ่ายควบคุม โปรดเลือกข้อมูลที่คุณต้องการแชร์ด้วยแอพ</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"เปิดใช้"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"เปิดใช้บริการ Google Play"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"เลือกโหมดแก้ปัญหา"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"การแก้ปัญหา"</string>
     <string msgid="6099173376375995052" name="decline">"ปฏิเสธ"</string>
+    <string name="messenger_send_button_text">ส่ง</string>
+    <string msgid="146198913615257606" name="search_menu_title">"ค้นหา"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"อนุญาตให้โฆษณาจัดเก็บรูปภาพในแกลเลอรีภาพไหม"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"บันทึกรูปภาพ"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">ตกลง</string>
+    <string name="zxing_msg_camera_framework_bug">ขออภัย พบปัญหาของกล้อง Android คุณอาจจะต้องรีสตาร์ทอุปกรณ์</string>
+    <string name="zxing_msg_default_status">วางบาร์โค้ดภายในสี่เหลี่ยมผืนผ้าที่ช่องมองภาพเพื่อสแกน</string>
 </resources>

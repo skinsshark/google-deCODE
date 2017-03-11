@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
     <string msgid="5835639618285370804" name="accept">"Accepter"</string>
+    <string name="com_facebook_device_auth_instructions">Consultez la page &lt;b>facebook.com/device&lt;/b> et saisissez le code indiqué ci-dessus.</string>
+    <string name="com_facebook_image_download_unknown_error">Une erreur inattendue s’est produite au moment de télécharger une image.</string>
+    <string name="com_facebook_internet_permission_error_message">La connexion au web nécessite une autorisation d’accéder à INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Erreur AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">J’aime déjà</string>
+    <string name="com_facebook_like_button_not_liked">J’aime</string>
+    <string name="com_facebook_loading">Chargement…</string>
+    <string name="com_facebook_loginview_cancel_action">Annuler</string>
+    <string name="com_facebook_loginview_log_in_button">Connexion</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continuer avec Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Connexion avec Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Déconnexion</string>
+    <string name="com_facebook_loginview_log_out_button">Déconnexion</string>
+    <string name="com_facebook_loginview_logged_in_as">Connexion en tant que : %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Connecté(e) à l’aide de Facebook</string>
+    <string name="com_facebook_send_button_text">Envoyer</string>
+    <string name="com_facebook_share_button_text">Partager</string>
+    <string name="com_facebook_smart_device_instructions">Pour connecter votre compte, lancez l’application Facebook sur votre appareil mobile et consultez les notifications.</string>
+    <string name="com_facebook_smart_device_instructions_or">- OU -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Ce n’est pas vous ?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirmer la connexion</string>
+    <string name="com_facebook_tooltip_default">Vous gardez le contrôle. Choisissez les informations que vous souhaitez partager avec les applications.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activer"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Sélectionner un mode débogage"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Dépannage"</string>
     <string msgid="6099173376375995052" name="decline">"Refuser"</string>
+    <string name="messenger_send_button_text">Envoyer</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Rechercher"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Autoriser l\'annonce à stocker l\'image dans la galerie d\'images ?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Enregistrer l\'image"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Désolé, la caméra Android a rencontré un problème. Un redémarrage de l\'appareil est peut-être nécessaire.</string>
+    <string name="zxing_msg_default_status">Encadrez un code-barres avec le viseur pour le balayer.</string>
 </resources>

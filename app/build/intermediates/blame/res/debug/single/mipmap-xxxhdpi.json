@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

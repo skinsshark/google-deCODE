@@ -1,8 +1,15 @@
 package com.google_decode.decode_google;
 
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.FileProvider;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -11,15 +18,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
+import com.google_decode.decode_google.entity.ImageMessage;
 import com.google_decode.decode_google.entity.User;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,7 +52,9 @@ public class ContactListFragment extends Fragment {
 
     private static final String TAG = ContactListFragment.class.getSimpleName();
 
-    @BindView(R.id.contact_list)
+    public static final int REQUEST_IMAGE_CAPTURE = 189829;
+
+//    @BindView(R.id.contact_list)
     RecyclerView contactList;
 
     private FirebaseDatabase mFirebaseDatabase;
@@ -43,6 +63,8 @@ public class ContactListFragment extends Fragment {
     private ColorGenerator mColorGenerator;
 
     private ContactAdapter mContactAdapter;
+
+    private DatabaseReference mMailboxRef;
 
     @Nullable
     @Override
@@ -65,9 +87,9 @@ public class ContactListFragment extends Fragment {
 
     private void setupFirebase() {
         mFirebaseDatabase = FirebaseDatabase.getInstance();
+        mMailboxRef = mFirebaseDatabase.getReference("users").child(App.getCurrentUser().uid).child("mailbox");
         contactUids = App.getCurrentUser().contacts;
         if (contactUids == null || contactUids.isEmpty()) {
-            Log.d(TAG, "No contacts");
             return;
         }
         mFirebaseDatabase.getReference("users")
@@ -78,10 +100,7 @@ public class ContactListFragment extends Fragment {
                         final List<User> contacts = new ArrayList<>();
                         for (User user : User.parseUserList(dataSnapshot)) {
                             if (contactUids.contains(user.uid)) {
-                                Log.d(TAG, "add");
-
                                 contacts.add(user);
-                                Log.d(TAG, "Contacts size: " + contacts.size());
                             }
                         }
 
@@ -93,6 +112,88 @@ public class ContactListFragment extends Fragment {
                         databaseError.toException().printStackTrace();
                     }
                 });
+
+        mMailboxRef.limitToLast(1).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                ImageMessage message = ImageMessage.parseSingleImage(dataSnapshot);
+                Log.d(TAG, message.toString());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        mMailboxRef.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                ImageMessage message = ImageMessage.parseSingleImage(dataSnapshot);
+                Log.d(TAG, message.toString());
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    //Accepts the local file location of the image as well as the name that should be used to store the image on FireBase.
+    private void uploadPic(String fileLoc, String fileName) {
+        //Setting up FireBase
+        StorageReference mStorageRef;
+        mStorageRef = FirebaseStorage.getInstance().getReference();
+
+        //Retrieving Local Image URI
+        Uri file = Uri.fromFile(new File(fileLoc));
+        StorageReference riversRef = mStorageRef.child("/images/" + fileName);
+
+        //Uploading the file to FireBase storage
+        riversRef.putFile(file)
+                .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                    @Override
+                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                        Uri uri = taskSnapshot.getDownloadUrl();
+
+
+
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception exception) {
+                        Toast.makeText(getActivity(), "Sorry the file wasn't sent!", Toast.LENGTH_LONG).show();
+                    }
+                });
+
+    }
+
+    public void takePic() {
+        String imageFilePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/picture.jpg";
+        File imageFile = new File(imageFilePath);
+
+        Uri imageFileUri = FileProvider.getUriForFile(getContext(), getActivity().getApplicationContext().getPackageName() + ".provider", imageFile);
+
+        Intent camera_intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        camera_intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFileUri);
+        startActivityForResult(camera_intent, REQUEST_IMAGE_CAPTURE);
     }
 
     public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactViewHolder> {
@@ -109,19 +210,17 @@ public class ContactListFragment extends Fragment {
 
         @Override
         public ContactViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            Log.d(TAG, "onCreateViewHolder");
             return new ContactViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.contact_item, parent, false));
         }
 
         @Override
         public void onBindViewHolder(ContactViewHolder holder, int position) {
-            Log.d("onBindViewHolder", contacts.get(position).name);
             holder.setName(contacts.get(position).name);
+
         }
 
         @Override
         public int getItemCount() {
-            Log.d(TAG, "contacts.size():" + contacts.size());
             return contacts.size();
         }
 
@@ -141,6 +240,7 @@ public class ContactListFragment extends Fragment {
 
         public class ContactViewHolder extends RecyclerView.ViewHolder {
 
+            View root;
             @BindView(R.id.profile_picture)
             ImageView profileIconView;
             @BindView(R.id.contact_name_text)
@@ -150,6 +250,7 @@ public class ContactListFragment extends Fragment {
 
             public ContactViewHolder(View itemView) {
                 super(itemView);
+                root = itemView;
                 ButterKnife.bind(this, itemView);
             }
 

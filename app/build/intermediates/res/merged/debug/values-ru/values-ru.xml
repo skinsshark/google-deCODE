@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
     <string msgid="5835639618285370804" name="accept">"Принять"</string>
+    <string name="com_facebook_device_auth_instructions">Откройте страницу &lt;b>facebook.com/device&lt;/b> и введите представленный выше код.</string>
+    <string name="com_facebook_image_download_unknown_error">При загрузке изображения возникла неожиданная ошибка.</string>
+    <string name="com_facebook_internet_permission_error_message">Для входа в WebView необходимо разрешение INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Ошибка AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Понравилось</string>
+    <string name="com_facebook_like_button_not_liked">Нравится</string>
+    <string name="com_facebook_loading">Загрузка…</string>
+    <string name="com_facebook_loginview_cancel_action">Отменить</string>
+    <string name="com_facebook_loginview_log_in_button">Вход</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Продолжить с Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Вход через Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Выход</string>
+    <string name="com_facebook_loginview_log_out_button">Выход</string>
+    <string name="com_facebook_loginview_logged_in_as">Вы вошли как: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Выполнен вход с помощью Facebook</string>
+    <string name="com_facebook_send_button_text">Отправить</string>
+    <string name="com_facebook_share_button_text">Поделиться</string>
+    <string name="com_facebook_smart_device_instructions">Чтобы подключить аккаунт, откройте приложение Facebook на мобильном устройстве и проверьте уведомления.</string>
+    <string name="com_facebook_smart_device_instructions_or">- ИЛИ -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Это не вы?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Подтвердить вход</string>
+    <string name="com_facebook_tooltip_default">Вы сами выбираете, какой информацией поделиться с приложениями.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Выбрать режим отладки"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Устранение неполадок"</string>
     <string msgid="6099173376375995052" name="decline">"Отклонить"</string>
+    <string name="messenger_send_button_text">Отпр</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Разрешить объявлению сохранить изображение в галерее?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Сохранение изображения"</string>
+    <string name="zxing_app_name">Сканер штрих-кодов</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">К сожалению, возникла ошибка камеры. Может потребоваться перезагрузить устройство.</string>
+    <string name="zxing_msg_default_status">Чтобы сканировать штрих-код, поместите его в прямоугольник видоискателя.</string>
 </resources>

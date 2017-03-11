@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Sdílet pomocí %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sbalit"</string>
     <string msgid="5835639618285370804" name="accept">"Přijmout"</string>
+    <string name="com_facebook_device_auth_instructions">Navštivte &lt;b>facebook.com/device&lt;/b> a zadejte nahoře uvedený kód.</string>
+    <string name="com_facebook_image_download_unknown_error">Při stahování obrázku došlo k nečekané chybě.</string>
+    <string name="com_facebook_internet_permission_error_message">Webové přihlášení vyžaduje oprávnění použít INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Chyba AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Už se mi to líbí</string>
+    <string name="com_facebook_like_button_not_liked">To se mi líbí</string>
+    <string name="com_facebook_loading">Načítání…</string>
+    <string name="com_facebook_loginview_cancel_action">Zrušit</string>
+    <string name="com_facebook_loginview_log_in_button">Přihlásit</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Pokračovat přes Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Přihlásit se přes Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Odhlásit</string>
+    <string name="com_facebook_loginview_log_out_button">Odhlásit</string>
+    <string name="com_facebook_loginview_logged_in_as">Přihlášen(a) jako: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Přihlášen(a) přes Facebook</string>
+    <string name="com_facebook_send_button_text">Odeslat</string>
+    <string name="com_facebook_share_button_text">Sdílet</string>
+    <string name="com_facebook_smart_device_instructions">Účet si můžete připojit tak, že si na mobilním zařízení spustíte aplikaci Facebook a podíváte se do upozornění.</string>
+    <string name="com_facebook_smart_device_instructions_or">- NEBO -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Nejste to vy?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Potvrdit přihlášení</string>
+    <string name="com_facebook_tooltip_default">Je jen na vás, které informace chcete s aplikacemi sdílet.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Povolit"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Ke spuštění aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> je třeba aktivovat služby Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivace služeb Google Play"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Vybrat režim ladění"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Odstraňování problémů"</string>
     <string msgid="6099173376375995052" name="decline">"Odmítnout"</string>
+    <string name="messenger_send_button_text">Odeslat</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Hledat"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Povolit reklamě uložení obrázku do galerie fotek?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Uložit obrázek"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Omlouváme se, zjistili jsem problém s fotoaparátem. Možná bude nutné restartovat zařízení.</string>
+    <string name="zxing_msg_default_status">Zaměřte čtvercem na čárový kód</string>
 </resources>

@@ -2,7 +2,6 @@ package com.google_decode.decode_google.entity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.gson.Gson;
-import com.google_decode.decode_google.FirebasePacket;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -22,7 +21,6 @@ public class ImageMessage {
     private  boolean status;
     private int width;
     private int height;
-    private FirebasePacket fp;
     private String index;
 
 
@@ -41,7 +39,7 @@ public class ImageMessage {
     public ImageMessage(){
 
     }
-    public ImageMessage(String from, String fromId, String to, String toId, String uri, FirebasePacket fp){
+    public ImageMessage(String from, String fromId, String to, String toId, String uri){
         this.from = from;
         this.fromId = fromId;
         this.to = to;
@@ -49,9 +47,6 @@ public class ImageMessage {
         this.uri = uri;
         this.timestamp =  DateFormat.getDateTimeInstance().format(new Date());
         this.status = false;
-        this.fp = fp;
-        //this.height = height;
-        //this.width = width;
     }
 
     public String getFrom(){
@@ -84,14 +79,11 @@ public class ImageMessage {
         result.put("timestamp", timestamp);
         result.put("status", status);
         result.put("index", index);
-        //result.put("height", height);
-        //result.put("width", width);
-        result.put("firebasepacket", fp);
         return result;
 
     }
 
-    public static List<ImageMessage> parseUserList(DataSnapshot dataSnapshot) {
+    public static List<ImageMessage> parseImageList(DataSnapshot dataSnapshot) {
         List<ImageMessage> result = new ArrayList<>();
 
         for (DataSnapshot snapshot: dataSnapshot.getChildren()){
@@ -114,7 +106,24 @@ public class ImageMessage {
                 dataSnapshot.child(FROMID).getValue().toString(): "Unknown from id";
         im.index = dataSnapshot.child(INDEX).getValue() != null ?
                 dataSnapshot.child(INDEX).getValue().toString(): "Unknown from id";
-        im.fp = (FirebasePacket)dataSnapshot.child(INDEX).getValue();
+
+        im.uri = dataSnapshot.child(URI).getValue() != null?
+                dataSnapshot.child(URI).getValue().toString() : "Unknown from id";
+
         return im;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+
+        builder.append("from").append(from).append('\n')
+                .append("to").append(to).append('\n')
+                .append("fromId").append(fromId).append('\n')
+                .append("toId").append(toId).append('\n')
+                .append("uri").append(uri).append('\n')
+                .append("timestamp").append(timestamp).append('\n');
+
+        return builder.toString();
     }
 }
