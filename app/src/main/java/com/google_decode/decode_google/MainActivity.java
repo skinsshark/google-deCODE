@@ -78,39 +78,8 @@ public class MainActivity extends AppCompatActivity {
             if (mFirebaseUser.getPhotoUrl() != null) {
                 mPhotoUrl = mFirebaseUser.getPhotoUrl().toString();
             }
-
-
-//            final Button button = (Button) findViewById(R.id.btnTesting);
-//            button.setOnClickListener(new View.OnClickListener() {
-//                public void onClick(View v) {
-//                   DatabaseRetriever.sendMessage("Working");
-//
-//                    DatabaseRetriever.getMessage();
-//                }
-//            }); RANDOM
-
-
             FirebaseDatabase database = FirebaseDatabase.getInstance();
             DatabaseReference myRef = database.getReference("message");
-
-//            myRef.addValueEventListener(new ValueEventListener() {
-//                @Override
-//                public void onDataChange(DataSnapshot dataSnapshot) {
-//                    // This method is called once with the initial value and again
-//                    // whenever data at this location is updated.
-//                    String value = dataSnapshot.getValue(String.class);
-//                    Log.d(TAG, "Value is: " + value);
-//                    final TextView textViewTesting = (TextView) findViewById(R.id.textViewTesting);
-//                    textViewTesting.setText(value);
-//
-//                }
-
-//                @Override
-//                public void onCancelled(DatabaseError error) {
-//                    // Failed to read value
-//                    Log.w(TAG, "Failed to read value.", error.toException());
-//                }
-//            });
         }
 
         super.onCreate(savedInstanceState);
@@ -280,8 +249,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Retrieving Local Image URI
         Uri file = Uri.fromFile(new File(fileLoc));
-        StorageReference riversRef = mStorageRef.child("/images/" + fileName);
+        StorageReference riversRef = mStorageRef.child("/Object/" + fileName);
 
+        FirebasePacket packet = new FirebasePacket();
         //Uploading the file to FireBase storage
         riversRef.putFile(file)
                 .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
@@ -291,8 +261,8 @@ public class MainActivity extends AppCompatActivity {
                         //The url of the file online
                         //noinspection VisibleForTests
                         downloadUrl = taskSnapshot.getDownloadUrl();
-                        mFirebaseAuth = FirebaseAuth.getInstance();
-                        mFirebaseUser = mFirebaseAuth.getCurrentUser();
+//                        mFirebaseAuth = FirebaseAuth.getInstance();
+//                        mFirebaseUser = mFirebaseAuth.getCurrentUser();
                         //downloadPic(downloadUrl.toString());
                         //downloadPic(d);
 
