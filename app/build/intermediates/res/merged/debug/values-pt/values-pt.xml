@@ -19,5 +19,33 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="com_facebook_device_auth_instructions">Acesse &lt;b>facebook.com/device&lt;/b> e introduza o código mostrado acima.</string>
+    <string name="com_facebook_image_download_unknown_error">Erro inesperado ao baixar uma imagem.</string>
+    <string name="com_facebook_internet_permission_error_message">A permissão de INTERNET é necessária para fazer o login WebView</string>
+    <string name="com_facebook_internet_permission_error_title">Erro no AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Curtiu</string>
+    <string name="com_facebook_like_button_not_liked">Curtir</string>
+    <string name="com_facebook_loading">Carregando…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string name="com_facebook_loginview_log_in_button">Entrar</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continuar com o Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Entrar com o Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Sair</string>
+    <string name="com_facebook_loginview_log_out_button">Sair</string>
+    <string name="com_facebook_loginview_logged_in_as">Conectado como: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Você entrou usando o Facebook</string>
+    <string name="com_facebook_send_button_text">Envio</string>
+    <string name="com_facebook_share_button_text">Compartilhar</string>
+    <string name="com_facebook_smart_device_instructions">Para conectar sua conta, abra o aplicativo Facebook em seu dispositivo móvel e verifique se tem notificações.</string>
+    <string name="com_facebook_smart_device_instructions_or">– OU –</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Não é você?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirme o login</string>
+    <string name="com_facebook_tooltip_default">Você é quem controla — escolha quais informações você quer compartilhar com os aplicativos.</string>
+    <string name="messenger_send_button_text">Enviar</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Desculpe, a câmera do Android encontrou um problema. Poderá precisar de reiniciar o dispositivo.</string>
+    <string name="zxing_msg_default_status">Alinhar código de barras com o exemplo para ser lido.</string>
 </resources>

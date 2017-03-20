@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
     <string msgid="5835639618285370804" name="accept">"同意する"</string>
+    <string name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b>にアクセスし、上に表示されているコードを入力してください。</string>
+    <string name="com_facebook_image_download_unknown_error">画像のダウンロード中に予期しないエラーが発生しました。</string>
+    <string name="com_facebook_internet_permission_error_message">WebViewログインにはINTERNET権限が必要です</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifestエラー</string>
+    <string name="com_facebook_like_button_liked">いいね！済み</string>
+    <string name="com_facebook_like_button_not_liked">いいね！</string>
+    <string name="com_facebook_loading">読み込み中…</string>
+    <string name="com_facebook_loginview_cancel_action">キャンセル</string>
+    <string name="com_facebook_loginview_log_in_button">ログイン</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Facebookで続ける</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebookでログイン</string>
+    <string name="com_facebook_loginview_log_out_action">ログアウト</string>
+    <string name="com_facebook_loginview_log_out_button">ログアウト</string>
+    <string name="com_facebook_loginview_logged_in_as">次のユーザーとしてログイン中: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebookを使用してログイン中</string>
+    <string name="com_facebook_send_button_text">送信</string>
+    <string name="com_facebook_share_button_text">シェア</string>
+    <string name="com_facebook_smart_device_instructions">アカウントを接続するには、お使いのモバイル機器でFacebookアプリを開き、通知をご確認ください。</string>
+    <string name="com_facebook_smart_device_instructions_or">- または -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">別のユーザーとしてログイン</string>
+    <string name="com_facebook_smart_login_confirmation_title">ログインの確認</string>
+    <string name="com_facebook_tooltip_default">アプリと共有する情報をコントロールできます。</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"有効にする"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行には、Google Play開発者サービスの有効化が必要です。"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play開発者サービスの有効化"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"デバッグモードの選択"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"困ったときに"</string>
     <string msgid="6099173376375995052" name="decline">"同意しない"</string>
+    <string name="messenger_send_button_text">送信</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"広告が画像ギャラリーに画像を保存することを許可しますか？"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"画像の保存"</string>
+    <string name="zxing_app_name">QRコードスキャナー</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Androidのカメラに問題が発生しました。デバイスを再起動する必要があります。</string>
+    <string name="zxing_msg_default_status">QRコードを画面の読み取り範囲内に写すとスキャンします。</string>
 </resources>

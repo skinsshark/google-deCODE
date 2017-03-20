@@ -1,410 +1,6 @@
 [
     {
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 103,
-                    "endOffset": 154
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 103,
-                        "endOffset": 154
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 159,
-                    "endColumn": 107,
-                    "endOffset": 262
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 159,
-                        "endColumn": 107,
-                        "endOffset": 262
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 267,
-                    "endColumn": 122,
-                    "endOffset": 385
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 267,
-                        "endColumn": 122,
-                        "endOffset": 385
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 390,
-                    "endColumn": 99,
-                    "endOffset": 485
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 390,
-                        "endColumn": 99,
-                        "endOffset": 485
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 490,
-                    "endColumn": 105,
-                    "endOffset": 591
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 490,
-                        "endColumn": 105,
-                        "endOffset": 591
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 596,
-                    "endColumn": 84,
-                    "endOffset": 676
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 596,
-                        "endColumn": 84,
-                        "endOffset": 676
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 681,
-                    "endColumn": 102,
-                    "endOffset": 779
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 681,
-                        "endColumn": 102,
-                        "endOffset": 779
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 784,
-                    "endColumn": 117,
-                    "endOffset": 897
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 784,
-                        "endColumn": 117,
-                        "endOffset": 897
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 902,
-                    "endColumn": 75,
-                    "endOffset": 973
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 902,
-                        "endColumn": 75,
-                        "endOffset": 973
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 978,
-                    "endColumn": 76,
-                    "endOffset": 1050
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 978,
-                        "endColumn": 76,
-                        "endOffset": 1050
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1055,
-                    "endColumn": 80,
-                    "endOffset": 1131
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1055,
-                        "endColumn": 80,
-                        "endOffset": 1131
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1136,
-                    "endColumn": 106,
-                    "endOffset": 1238
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1136,
-                        "endColumn": 106,
-                        "endOffset": 1238
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1243,
-                    "endColumn": 102,
-                    "endOffset": 1341
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1243,
-                        "endColumn": 102,
-                        "endOffset": 1341
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1346,
-                    "endColumn": 96,
-                    "endOffset": 1438
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1346,
-                        "endColumn": 96,
-                        "endOffset": 1438
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1443,
-                    "endColumn": 107,
-                    "endOffset": 1546
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1443,
-                        "endColumn": 107,
-                        "endOffset": 1546
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1551,
-                    "endColumn": 101,
-                    "endOffset": 1648
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1551,
-                        "endColumn": 101,
-                        "endOffset": 1648
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1653,
-                    "endColumn": 101,
-                    "endOffset": 1750
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1653,
-                        "endColumn": 101,
-                        "endOffset": 1750
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1755,
-                    "endColumn": 116,
-                    "endOffset": 1867
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1755,
-                        "endColumn": 116,
-                        "endOffset": 1867
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1872,
-                    "endColumn": 97,
-                    "endOffset": 1965
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1872,
-                        "endColumn": 97,
-                        "endOffset": 1965
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1970,
-                    "endColumn": 79,
-                    "endOffset": 2045
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1970,
-                        "endColumn": 79,
-                        "endOffset": 2045
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2050,
-                    "endColumn": 100,
-                    "endOffset": 2146
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2050,
-                        "endColumn": 100,
-                        "endOffset": 2146
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
+        "outputFile": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
         "map": [
             {
                 "to": {
@@ -415,7 +11,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -434,7 +30,7 @@
                     "endOffset": 312
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -453,7 +49,7 @@
                     "endOffset": 435
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -472,7 +68,7 @@
                     "endOffset": 535
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -491,7 +87,7 @@
                     "endOffset": 641
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -510,7 +106,7 @@
                     "endOffset": 726
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -529,7 +125,7 @@
                     "endOffset": 829
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -548,7 +144,7 @@
                     "endOffset": 947
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -567,7 +163,7 @@
                     "endOffset": 1023
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -586,7 +182,7 @@
                     "endOffset": 1100
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -605,7 +201,7 @@
                     "endOffset": 1181
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -624,7 +220,7 @@
                     "endOffset": 1288
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -643,7 +239,7 @@
                     "endOffset": 1391
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -662,7 +258,7 @@
                     "endOffset": 1488
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -681,7 +277,7 @@
                     "endOffset": 1596
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -700,7 +296,7 @@
                     "endOffset": 1698
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -719,7 +315,7 @@
                     "endOffset": 1800
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -738,7 +334,7 @@
                     "endOffset": 1917
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -757,7 +353,7 @@
                     "endOffset": 2015
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -776,7 +372,7 @@
                     "endOffset": 2088
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -791,909 +387,431 @@
                     "startLine": 22,
                     "startColumn": 4,
                     "startOffset": 2093,
-                    "endColumn": 108,
-                    "endOffset": 2197
+                    "endColumn": 150,
+                    "endOffset": 2239
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 283,
-                        "endColumn": 104,
-                        "endOffset": 387
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2202,
-                    "endColumn": 187,
-                    "endOffset": 2385
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 0,
-                        "startOffset": 388,
-                        "endColumn": 187,
-                        "endOffset": 575
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 2390,
-                    "endColumn": 127,
-                    "endOffset": 2513
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 0,
-                        "startOffset": 576,
-                        "endColumn": 123,
-                        "endOffset": 699
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 2518,
-                    "endColumn": 111,
-                    "endOffset": 2625
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 0,
-                        "startOffset": 700,
-                        "endColumn": 107,
-                        "endOffset": 807
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 2630,
-                    "endColumn": 208,
-                    "endOffset": 2834
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 0,
-                        "startOffset": 808,
-                        "endColumn": 208,
-                        "endOffset": 1016
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 2839,
-                    "endColumn": 123,
-                    "endOffset": 2958
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 0,
-                        "startOffset": 1017,
-                        "endColumn": 119,
-                        "endOffset": 1136
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 2963,
-                    "endColumn": 130,
-                    "endOffset": 3089
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 0,
-                        "startOffset": 1137,
-                        "endColumn": 126,
-                        "endOffset": 1263
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 3094,
-                    "endColumn": 201,
-                    "endOffset": 3291
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/0609327e40ff4f621b23cc2f46d0e8bd8e94f4de/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 285,
-                        "endColumn": 201,
-                        "endOffset": 486
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 3296,
-                    "endColumn": 224,
-                    "endOffset": 3516
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 0,
-                        "startOffset": 1264,
-                        "endColumn": 224,
-                        "endOffset": 1488
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 3521,
-                    "endColumn": 109,
-                    "endOffset": 3626
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 0,
-                        "startOffset": 1489,
-                        "endColumn": 105,
-                        "endOffset": 1594
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 3631,
-                    "endColumn": 187,
-                    "endOffset": 3814
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 0,
-                        "startOffset": 1595,
-                        "endColumn": 187,
-                        "endOffset": 1782
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 3819,
-                    "endColumn": 128,
-                    "endOffset": 3943
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 0,
-                        "startOffset": 1783,
-                        "endColumn": 124,
-                        "endOffset": 1907
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 3948,
-                    "endColumn": 197,
-                    "endOffset": 4141
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 0,
-                        "startOffset": 1908,
-                        "endColumn": 197,
-                        "endOffset": 2105
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 4146,
-                    "endColumn": 183,
-                    "endOffset": 4325
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 0,
-                        "startOffset": 2106,
-                        "endColumn": 179,
-                        "endOffset": 2285
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 4330,
-                    "endColumn": 95,
-                    "endOffset": 4421
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 0,
-                        "startOffset": 2286,
-                        "endColumn": 91,
-                        "endOffset": 2377
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 4426,
-                    "endColumn": 92,
-                    "endOffset": 4514
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 0,
-                        "startOffset": 2378,
-                        "endColumn": 88,
-                        "endOffset": 2466
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 4519,
-                    "endColumn": 107,
-                    "endOffset": 4622
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 0,
-                        "startOffset": 2467,
-                        "endColumn": 103,
-                        "endOffset": 2570
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 4627,
-                    "endColumn": 138,
-                    "endOffset": 4761
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 0,
-                        "startOffset": 306,
-                        "endColumn": 134,
-                        "endOffset": 440
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 4766,
-                    "endColumn": 104,
-                    "endOffset": 4866
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 0,
-                        "startOffset": 441,
-                        "endColumn": 100,
-                        "endOffset": 541
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 4871,
-                    "endColumn": 105,
-                    "endOffset": 4972
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 0,
-                        "startOffset": 542,
-                        "endColumn": 101,
-                        "endOffset": 643
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 42,
-                    "startColumn": 4,
-                    "startOffset": 4977,
-                    "endColumn": 119,
-                    "endOffset": 5092
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 0,
-                        "startOffset": 644,
-                        "endColumn": 115,
-                        "endOffset": 759
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 43,
-                    "startColumn": 4,
-                    "startOffset": 5097,
-                    "endColumn": 96,
-                    "endOffset": 5189
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 0,
-                        "startOffset": 760,
-                        "endColumn": 92,
-                        "endOffset": 852
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 44,
-                    "startColumn": 4,
-                    "startOffset": 5194,
-                    "endColumn": 96,
-                    "endOffset": 5286
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 0,
-                        "startOffset": 853,
-                        "endColumn": 92,
-                        "endOffset": 945
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 5291,
-                    "endColumn": 72,
-                    "endOffset": 5359
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 0,
-                        "startOffset": 946,
-                        "endColumn": 68,
-                        "endOffset": 1014
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 5364,
-                    "endColumn": 100,
-                    "endOffset": 5460
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/values-af/values-af.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1970,
-                        "endColumn": 100,
-                        "endOffset": 2066
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 5465,
-                    "endColumn": 135,
-                    "endOffset": 5596
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 0,
-                        "startOffset": 1015,
-                        "endColumn": 131,
-                        "endOffset": 1146
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 5601,
-                    "endColumn": 89,
-                    "endOffset": 5686
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/.android/build-cache/1df18333278b2440d3aaff7c63d594ca557c431d/output/res/values-af/values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 0,
-                        "startOffset": 1147,
-                        "endColumn": 85,
-                        "endOffset": 1232
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 105,
-                    "endColumn": 103,
-                    "endOffset": 204
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 103,
-                        "endOffset": 154
+                        "endColumn": 150,
+                        "endOffset": 201
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 209,
-                    "endColumn": 107,
-                    "endOffset": 312
+                    "startOffset": 2244,
+                    "endLine": 24,
+                    "endColumn": 23,
+                    "endOffset": 2359
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 159,
-                        "endColumn": 107,
-                        "endOffset": 262
+                        "startOffset": 206,
+                        "endLine": 4,
+                        "endColumn": 23,
+                        "endOffset": 321
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 317,
-                    "endColumn": 122,
-                    "endOffset": 435
+                    "startOffset": 2364,
+                    "endColumn": 124,
+                    "endOffset": 2484
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 267,
-                        "endColumn": 122,
-                        "endOffset": 385
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 440,
-                    "endColumn": 99,
-                    "endOffset": 535
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 390,
-                        "endColumn": 99,
-                        "endOffset": 485
+                        "startOffset": 326,
+                        "endColumn": 124,
+                        "endOffset": 446
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 540,
-                    "endColumn": 105,
-                    "endOffset": 641
+                    "startOffset": 2489,
+                    "endColumn": 93,
+                    "endOffset": 2578
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 490,
-                        "endColumn": 105,
-                        "endOffset": 591
+                        "startOffset": 451,
+                        "endColumn": 93,
+                        "endOffset": 540
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 646,
-                    "endColumn": 84,
-                    "endOffset": 726
+                    "startOffset": 2583,
+                    "endColumn": 66,
+                    "endOffset": 2645
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 596,
-                        "endColumn": 84,
-                        "endOffset": 676
+                        "startOffset": 545,
+                        "endColumn": 66,
+                        "endOffset": 607
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 731,
-                    "endColumn": 102,
-                    "endOffset": 829
+                    "startOffset": 2650,
+                    "endColumn": 70,
+                    "endOffset": 2716
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 681,
-                        "endColumn": 102,
-                        "endOffset": 779
+                        "startOffset": 612,
+                        "endColumn": 70,
+                        "endOffset": 678
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 834,
-                    "endColumn": 117,
-                    "endOffset": 947
+                    "startOffset": 2721,
+                    "endColumn": 59,
+                    "endOffset": 2776
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 784,
-                        "endColumn": 117,
-                        "endOffset": 897
+                        "startOffset": 683,
+                        "endColumn": 59,
+                        "endOffset": 738
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 952,
+                    "startOffset": 2781,
                     "endColumn": 75,
-                    "endOffset": 1023
+                    "endOffset": 2852
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 902,
+                        "startOffset": 743,
                         "endColumn": 75,
-                        "endOffset": 973
+                        "endOffset": 814
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1028,
-                    "endColumn": 76,
-                    "endOffset": 1100
+                    "startOffset": 2857,
+                    "endColumn": 73,
+                    "endOffset": 2926
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 978,
-                        "endColumn": 76,
-                        "endOffset": 1050
+                        "startOffset": 819,
+                        "endColumn": 73,
+                        "endOffset": 888
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1105,
-                    "endColumn": 80,
-                    "endOffset": 1181
+                    "startOffset": 2931,
+                    "endColumn": 97,
+                    "endOffset": 3024
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1055,
-                        "endColumn": 80,
-                        "endOffset": 1131
+                        "startOffset": 893,
+                        "endColumn": 97,
+                        "endOffset": 986
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 1186,
-                    "endColumn": 106,
-                    "endOffset": 1288
+                    "startOffset": 3029,
+                    "endColumn": 91,
+                    "endOffset": 3116
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1136,
-                        "endColumn": 106,
-                        "endOffset": 1238
+                        "startOffset": 991,
+                        "endColumn": 91,
+                        "endOffset": 1078
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1293,
-                    "endColumn": 102,
-                    "endOffset": 1391
+                    "startOffset": 3121,
+                    "endColumn": 73,
+                    "endOffset": 3190
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1243,
-                        "endColumn": 102,
-                        "endOffset": 1341
+                        "startOffset": 1083,
+                        "endColumn": 73,
+                        "endOffset": 1152
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1396,
-                    "endColumn": 96,
-                    "endOffset": 1488
+                    "startOffset": 3195,
+                    "endColumn": 73,
+                    "endOffset": 3264
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1346,
-                        "endColumn": 96,
-                        "endOffset": 1438
+                        "startOffset": 1157,
+                        "endColumn": 73,
+                        "endOffset": 1226
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1493,
-                    "endColumn": 107,
-                    "endOffset": 1596
+                    "startOffset": 3269,
+                    "endColumn": 82,
+                    "endOffset": 3347
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1443,
-                        "endColumn": 107,
-                        "endOffset": 1546
+                        "startOffset": 1231,
+                        "endColumn": 82,
+                        "endOffset": 1309
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 1601,
-                    "endColumn": 101,
-                    "endOffset": 1698
+                    "startOffset": 3352,
+                    "endColumn": 98,
+                    "endOffset": 3446
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1551,
-                        "endColumn": 101,
-                        "endOffset": 1648
+                        "startOffset": 1314,
+                        "endColumn": 98,
+                        "endOffset": 1408
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 1703,
-                    "endColumn": 101,
-                    "endOffset": 1800
+                    "startOffset": 3451,
+                    "endColumn": 63,
+                    "endOffset": 3510
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1653,
-                        "endColumn": 101,
-                        "endOffset": 1750
+                        "startOffset": 1413,
+                        "endColumn": 63,
+                        "endOffset": 1472
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1805,
-                    "endColumn": 116,
-                    "endOffset": 1917
+                    "startOffset": 3515,
+                    "endColumn": 63,
+                    "endOffset": 3574
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1755,
-                        "endColumn": 116,
-                        "endOffset": 1867
+                        "startOffset": 1477,
+                        "endColumn": 63,
+                        "endOffset": 1536
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 1922,
-                    "endColumn": 97,
-                    "endOffset": 2015
+                    "startOffset": 3579,
+                    "endColumn": 183,
+                    "endOffset": 3758
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1872,
-                        "endColumn": 97,
-                        "endOffset": 1965
+                        "startOffset": 1541,
+                        "endColumn": 183,
+                        "endOffset": 1720
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 2020,
-                    "endColumn": 72,
-                    "endOffset": 2088
+                    "startOffset": 3763,
+                    "endColumn": 76,
+                    "endOffset": 3835
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 237,
-                        "endColumn": 68,
-                        "endOffset": 305
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1725,
+                        "endColumn": 76,
+                        "endOffset": 1797
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 2093,
-                    "endColumn": 108,
-                    "endOffset": 2197
+                    "startOffset": 3840,
+                    "endColumn": 84,
+                    "endOffset": 3920
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1802,
+                        "endColumn": 84,
+                        "endOffset": 1882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3925,
+                    "endColumn": 92,
+                    "endOffset": 4013
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1887,
+                        "endColumn": 92,
+                        "endOffset": 1975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4018,
+                    "endColumn": 125,
+                    "endOffset": 4139
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1980,
+                        "endColumn": 125,
+                        "endOffset": 2101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4144,
+                    "endColumn": 108,
+                    "endOffset": 4248
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1705,14 +823,14 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2202,
+                    "startOffset": 4253,
                     "endColumn": 187,
-                    "endOffset": 2385
+                    "endOffset": 4436
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -1724,14 +842,14 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 2390,
+                    "startOffset": 4441,
                     "endColumn": 127,
-                    "endOffset": 2513
+                    "endOffset": 4564
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -1743,457 +861,20 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 2518,
+                    "startOffset": 4569,
                     "endColumn": 111,
-                    "endOffset": 2625
+                    "endOffset": 4676
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
                         "startOffset": 700,
                         "endColumn": 107,
                         "endOffset": 807
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 2630,
-                    "endColumn": 208,
-                    "endOffset": 2834
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 0,
-                        "startOffset": 808,
-                        "endColumn": 208,
-                        "endOffset": 1016
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 2839,
-                    "endColumn": 123,
-                    "endOffset": 2958
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 0,
-                        "startOffset": 1017,
-                        "endColumn": 119,
-                        "endOffset": 1136
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 2963,
-                    "endColumn": 130,
-                    "endOffset": 3089
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 0,
-                        "startOffset": 1137,
-                        "endColumn": 126,
-                        "endOffset": 1263
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 3094,
-                    "endColumn": 201,
-                    "endOffset": 3291
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\3ef144ec7570052cd6ae7dad002a64334091acb9\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 285,
-                        "endColumn": 201,
-                        "endOffset": 486
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 3296,
-                    "endColumn": 224,
-                    "endOffset": 3516
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 0,
-                        "startOffset": 1264,
-                        "endColumn": 224,
-                        "endOffset": 1488
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 3521,
-                    "endColumn": 109,
-                    "endOffset": 3626
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 0,
-                        "startOffset": 1489,
-                        "endColumn": 105,
-                        "endOffset": 1594
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 3631,
-                    "endColumn": 187,
-                    "endOffset": 3814
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 0,
-                        "startOffset": 1595,
-                        "endColumn": 187,
-                        "endOffset": 1782
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 3819,
-                    "endColumn": 128,
-                    "endOffset": 3943
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 0,
-                        "startOffset": 1783,
-                        "endColumn": 124,
-                        "endOffset": 1907
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 3948,
-                    "endColumn": 197,
-                    "endOffset": 4141
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 0,
-                        "startOffset": 1908,
-                        "endColumn": 197,
-                        "endOffset": 2105
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 4146,
-                    "endColumn": 183,
-                    "endOffset": 4325
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 0,
-                        "startOffset": 2106,
-                        "endColumn": 179,
-                        "endOffset": 2285
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 4330,
-                    "endColumn": 95,
-                    "endOffset": 4421
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 0,
-                        "startOffset": 2286,
-                        "endColumn": 91,
-                        "endOffset": 2377
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 4426,
-                    "endColumn": 92,
-                    "endOffset": 4514
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 0,
-                        "startOffset": 2378,
-                        "endColumn": 88,
-                        "endOffset": 2466
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 4519,
-                    "endColumn": 107,
-                    "endOffset": 4622
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 0,
-                        "startOffset": 2467,
-                        "endColumn": 103,
-                        "endOffset": 2570
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 4627,
-                    "endColumn": 138,
-                    "endOffset": 4761
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 0,
-                        "startOffset": 306,
-                        "endColumn": 134,
-                        "endOffset": 440
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 4766,
-                    "endColumn": 104,
-                    "endOffset": 4866
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 0,
-                        "startOffset": 441,
-                        "endColumn": 100,
-                        "endOffset": 541
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 4871,
-                    "endColumn": 105,
-                    "endOffset": 4972
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 0,
-                        "startOffset": 542,
-                        "endColumn": 101,
-                        "endOffset": 643
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 42,
-                    "startColumn": 4,
-                    "startOffset": 4977,
-                    "endColumn": 119,
-                    "endOffset": 5092
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 0,
-                        "startOffset": 644,
-                        "endColumn": 115,
-                        "endOffset": 759
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 43,
-                    "startColumn": 4,
-                    "startOffset": 5097,
-                    "endColumn": 96,
-                    "endOffset": 5189
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 0,
-                        "startOffset": 760,
-                        "endColumn": 92,
-                        "endOffset": 852
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 44,
-                    "startColumn": 4,
-                    "startOffset": 5194,
-                    "endColumn": 96,
-                    "endOffset": 5286
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 0,
-                        "startOffset": 853,
-                        "endColumn": 92,
-                        "endOffset": 945
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 5291,
-                    "endColumn": 72,
-                    "endOffset": 5359
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 0,
-                        "startOffset": 946,
-                        "endColumn": 68,
-                        "endOffset": 1014
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 5364,
-                    "endColumn": 79,
-                    "endOffset": 5439
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1970,
-                        "endColumn": 79,
-                        "endOffset": 2045
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 5444,
-                    "endColumn": 100,
-                    "endOffset": 5540
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\values-af\\values-af.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2050,
-                        "endColumn": 100,
-                        "endOffset": 2146
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 5545,
-                    "endColumn": 135,
-                    "endOffset": 5676
-                },
-                "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 0,
-                        "startOffset": 1015,
-                        "endColumn": 131,
-                        "endOffset": 1146
                     }
                 }
             },
@@ -2201,12 +882,468 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 5681,
-                    "endColumn": 89,
-                    "endOffset": 5766
+                    "startOffset": 4681,
+                    "endColumn": 208,
+                    "endOffset": 4885
                 },
                 "from": {
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\f4a66cd0422c728c94bf618602176068565558fc\\output\\res\\values-af\\values.xml",
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 808,
+                        "endColumn": 208,
+                        "endOffset": 1016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4890,
+                    "endColumn": 123,
+                    "endOffset": 5009
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1017,
+                        "endColumn": 119,
+                        "endOffset": 1136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5014,
+                    "endColumn": 130,
+                    "endOffset": 5140
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1137,
+                        "endColumn": 126,
+                        "endOffset": 1263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5145,
+                    "endColumn": 201,
+                    "endOffset": 5342
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 201,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5347,
+                    "endColumn": 224,
+                    "endOffset": 5567
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1264,
+                        "endColumn": 224,
+                        "endOffset": 1488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5572,
+                    "endColumn": 109,
+                    "endOffset": 5677
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1489,
+                        "endColumn": 105,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5682,
+                    "endColumn": 187,
+                    "endOffset": 5865
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1595,
+                        "endColumn": 187,
+                        "endOffset": 1782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5870,
+                    "endColumn": 128,
+                    "endOffset": 5994
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1783,
+                        "endColumn": 124,
+                        "endOffset": 1907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5999,
+                    "endColumn": 197,
+                    "endOffset": 6192
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1908,
+                        "endColumn": 197,
+                        "endOffset": 2105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6197,
+                    "endColumn": 183,
+                    "endOffset": 6376
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2106,
+                        "endColumn": 179,
+                        "endOffset": 2285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6381,
+                    "endColumn": 95,
+                    "endOffset": 6472
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2286,
+                        "endColumn": 91,
+                        "endOffset": 2377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6477,
+                    "endColumn": 92,
+                    "endOffset": 6565
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2378,
+                        "endColumn": 88,
+                        "endOffset": 2466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 6570,
+                    "endColumn": 107,
+                    "endOffset": 6673
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2467,
+                        "endColumn": 103,
+                        "endOffset": 2570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6678,
+                    "endColumn": 138,
+                    "endOffset": 6812
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 306,
+                        "endColumn": 134,
+                        "endOffset": 440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 6817,
+                    "endColumn": 104,
+                    "endOffset": 6917
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 441,
+                        "endColumn": 100,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6922,
+                    "endColumn": 105,
+                    "endOffset": 7023
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 542,
+                        "endColumn": 101,
+                        "endOffset": 643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 7028,
+                    "endColumn": 119,
+                    "endOffset": 7143
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 644,
+                        "endColumn": 115,
+                        "endOffset": 759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 7148,
+                    "endColumn": 96,
+                    "endOffset": 7240
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 760,
+                        "endColumn": 92,
+                        "endOffset": 852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 7245,
+                    "endColumn": 96,
+                    "endOffset": 7337
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 853,
+                        "endColumn": 92,
+                        "endOffset": 945
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 7342,
+                    "endColumn": 72,
+                    "endOffset": 7410
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 946,
+                        "endColumn": 68,
+                        "endOffset": 1014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 7415,
+                    "endColumn": 60,
+                    "endOffset": 7471
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/values-af/values-af.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2106,
+                        "endColumn": 60,
+                        "endOffset": 2162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 7476,
+                    "endColumn": 79,
+                    "endOffset": 7551
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1970,
+                        "endColumn": 79,
+                        "endOffset": 2045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 7556,
+                    "endColumn": 100,
+                    "endOffset": 7652
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values-af/values-af.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2050,
+                        "endColumn": 100,
+                        "endOffset": 2146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 7657,
+                    "endColumn": 135,
+                    "endOffset": 7788
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1015,
+                        "endColumn": 131,
+                        "endOffset": 1146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 7793,
+                    "endColumn": 89,
+                    "endOffset": 7878
+                },
+                "from": {
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/res/values-af/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,

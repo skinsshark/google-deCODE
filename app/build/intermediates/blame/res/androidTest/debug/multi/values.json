@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-=======
-        "outputFile": "C:\\Users\\sharonzheng\\Desktop\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
->>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
+        "outputFile": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -15,99 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
-=======
-                    "file": "C:\\Users\\sharonzheng\\.android\\build-cache\\12c39b44ebf7c55a9bc0ebe88888a3e389426116\\output\\res\\values\\values.xml",
->>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-<<<<<<< HEAD
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-=======
-        "outputFile": "C:\\Users\\sharonzheng\\Desktop\\google-deCODE\\C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
->>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-<<<<<<< HEAD
-                    "file": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\52fa56aef71d53543048dc710f34dd59e54053e9\\output\\res\\values\\values.xml",
-=======
-                    "file": "C:\\Users\\sharonzheng\\Desktop\\google-deCODE\\C:\\Android\\.android\\build-cache\\52fa56aef71d53543048dc710f34dd59e54053e9\\output\\res\\values\\values.xml",
->>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-<<<<<<< HEAD
-        "outputFile": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
-=======
-        "outputFile": "C:\\Users\\nekhi\\AndroidStudioProjects\\google-deCODE\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
->>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-<<<<<<< HEAD
-                    "file": "/Users/sharonzheng/.android/build-cache/12c39b44ebf7c55a9bc0ebe88888a3e389426116/output/res/values/values.xml",
-=======
-                    "file": "C:\\Android\\.android\\build-cache\\d9fd70072054c0d97a5e549d5722ca2c80c08eab\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\sharonzheng\\Desktop\\google-deCODE\\C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "C:\\Users\\sharonzheng\\Desktop\\google-deCODE\\C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
->>>>>>> ccac3de41b4d7dc189da384c4f245623620d4580
+                    "file": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

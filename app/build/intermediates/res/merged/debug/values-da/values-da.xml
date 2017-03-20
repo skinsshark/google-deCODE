@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Del med %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
     <string msgid="5835639618285370804" name="accept">"Acceptér"</string>
+    <string name="com_facebook_device_auth_instructions">Gå til &lt;b>facebook.com/device&lt;/b>, og indtast den kode, der er angivet ovenfor.</string>
+    <string name="com_facebook_image_download_unknown_error">Der opstod en uventet fejl under download af et billede.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView-login kræver tilladelse til INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Fejl i forbindelse med AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Synes godt om</string>
+    <string name="com_facebook_like_button_not_liked">Synes godt om</string>
+    <string name="com_facebook_loading">Indlæser …</string>
+    <string name="com_facebook_loginview_cancel_action">Annuller</string>
+    <string name="com_facebook_loginview_log_in_button">Log på</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Fortsæt med Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log på med Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log af</string>
+    <string name="com_facebook_loginview_log_out_button">Log af</string>
+    <string name="com_facebook_loginview_logged_in_as">Logget på som: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logget på med Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Del</string>
+    <string name="com_facebook_smart_device_instructions">Du kan tilknytte din konto ved at åbne Facebook-appen på din mobilenhed og tjekke notifikationerne.</string>
+    <string name="com_facebook_smart_device_instructions_or">- ELLER -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Ikke dig?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Bekræft login</string>
+    <string name="com_facebook_tooltip_default">Du har styringen – vælg de oplysninger, som du vil dele med apps.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivér"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Du skal aktivere Google Play-tjenester, for at <ns1:g id="APP_NAME">%1$s</ns1:g> kan fungere."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivér Google Play-tjenester"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Vælg en fejlretningstilstand"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Fejlfinding"</string>
     <string msgid="6099173376375995052" name="decline">"Afvis"</string>
+    <string name="messenger_send_button_text">Send</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Søg"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Vil du tillade, at annoncen gemmer billedet i Galleri?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Gem billede"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Beklager, Android-kameraet er stødt på et problem. Du skal muligvis genstarte enheden.</string>
+    <string name="zxing_msg_default_status">Placér en stregkode inden i firkanten for at aflæse den.</string>
 </resources>

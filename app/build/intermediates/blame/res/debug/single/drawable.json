@@ -1,570 +1,298 @@
 [
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_auth_dialog_header_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_favicon_blue.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_button_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/color_button_gray.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/src/main/res/drawable/color_button_gray.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_button_login_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_button_login_silver_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_textfield_search_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_button_like_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_button_login_logo.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/c13383baf6041af8e3aad40eca525a6b7c728763/output/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_button_icon.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/image_border.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/src/main/res/drawable/image_border.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/shape_button_dark_grey.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/src/main/res/drawable/shape_button_dark_grey.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/c13383baf6041af8e3aad40eca525a6b7c728763/output/res/drawable/notification_tile_bg.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_button_send_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/messenger_button_white_bg_selector.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/shape_button_grey.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/src/main/res/drawable/shape_button_grey.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ic_clear_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ratingbar_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.20.0/res/drawable/messenger_button_blue_bg_selector.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/c13383baf6041af8e3aad40eca525a6b7c728763/output/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_text_disabled.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/c13383baf6041af8e3aad40eca525a6b7c728763/output/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/c13383baf6041af8e3aad40eca525a6b7c728763/output/res/drawable/abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\2804ec96b3839693b5575a8326683ad32691f6ea\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\James\\Documents\\GitHub\\Android\\decode-google\\google-deCODE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Android\\.android\\build-cache\\b88b33f398757d822f4a40533c6323a11858dd76\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/935977f29ccf8b96c1088dadb719d0406a9c470d/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "/Users/sharonzheng/Desktop/google-deCODE/C:\\Users\\yifan\\AndroidStudioProjects\\decode-Google\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/sharonzheng/Desktop/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/sharonzheng/.android/build-cache/bd3b990c1f1c46d8cf8dc1476596651e8dd70c25/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/yifan/AndroidStudioProjects/google-deCODE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_tab_indicator_material.xml"
     }
 ]

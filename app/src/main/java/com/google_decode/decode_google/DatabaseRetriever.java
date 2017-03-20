@@ -15,7 +15,6 @@ public class DatabaseRetriever {
 
     private static final String TAG = "DatabaseRetriever";
 
-
     public static void sendMessage(ImageMessage imageMessage){
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase database = FirebaseDatabase.getInstance();

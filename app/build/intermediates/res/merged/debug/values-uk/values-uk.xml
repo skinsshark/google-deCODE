@@ -44,7 +44,12 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Вибрати режим налагодження"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Вирішення проблем"</string>
     <string msgid="6099173376375995052" name="decline">"Відхилити"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Пошук"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Дозволити оголошенню зберегти зображення в галереї?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Зберегти зображення"</string>
+    <string name="zxing_app_name">Сканер штрих-кодів</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Нажаль, виникла помилка камери. Можливо, вам знадобиться перезавантажити пристрій.</string>
+    <string name="zxing_msg_default_status">Щоб відсканувати штрих-код, помістіть його в прямокутник видошукача.</string>
 </resources>

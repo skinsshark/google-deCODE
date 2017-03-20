@@ -44,7 +44,12 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Selectați modul Remedierea erorilor"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Remedierea erorilor"</string>
     <string msgid="6099173376375995052" name="decline">"Refuzați"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Căutați"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"˃999"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Permiteți ca anunțul să stocheze imaginea în Galeria de fotografii?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Salvarea imaginii"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">Acceptă</string>
+    <string name="zxing_msg_camera_framework_bug">Probleme cu camera foto. Repornește dispozitivul.</string>
+    <string name="zxing_msg_default_status">Plasează codul de bare în interiorul vizorului pentru a-l scana</string>
 </resources>

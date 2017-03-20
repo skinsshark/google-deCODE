@@ -20,6 +20,28 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Delen met %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
     <string msgid="5835639618285370804" name="accept">"Accepteren"</string>
+    <string name="com_facebook_device_auth_instructions">Ga naar &lt;b>facebook.com/device&lt;/b> en voer de bovenstaande code in.</string>
+    <string name="com_facebook_image_download_unknown_error">Onverwachte fout tijdens het downloaden van een afbeelding.</string>
+    <string name="com_facebook_internet_permission_error_message">Voor aanmelding via webweergave is de toestemming INTERNET vereist</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Vind ik leuk</string>
+    <string name="com_facebook_like_button_not_liked">Vind ik leuk</string>
+    <string name="com_facebook_loading">Laden…</string>
+    <string name="com_facebook_loginview_cancel_action">Annuleren</string>
+    <string name="com_facebook_loginview_log_in_button">Aanmelden</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Doorgaan met Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Aanmelden met Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Afmelden</string>
+    <string name="com_facebook_loginview_log_out_button">Afmelden</string>
+    <string name="com_facebook_loginview_logged_in_as">Aangemeld als: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Aangemeld via Facebook</string>
+    <string name="com_facebook_send_button_text">Verzenden</string>
+    <string name="com_facebook_share_button_text">Delen</string>
+    <string name="com_facebook_smart_device_instructions">Om je account te verbinden, open je de Facebook-app op je mobiele apparaat en controleer of je meldingen ziet.</string>
+    <string name="com_facebook_smart_device_instructions_or">- OF -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Ben jij dit niet?</string>
+    <string name="com_facebook_smart_login_confirmation_title">Aanmelden bevestigen</string>
+    <string name="com_facebook_tooltip_default">Jij hebt de controle. Kies welke informatie je met apps wilt delen.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Inschakelen"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> werkt niet, tenzij je Google Play-services inschakelt."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
@@ -44,7 +66,13 @@
     <string msgid="2039274714455389140" name="debug_menu_title">"Een foutopsporingsmodus selecteren"</string>
     <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Problemen oplossen"</string>
     <string msgid="6099173376375995052" name="decline">"Weigeren"</string>
+    <string name="messenger_send_button_text">Verzenden</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Zoeken"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Advertentie toestaan om afbeelding op te slaan in fotogalerij?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Afbeelding opslaan"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.</string>
+    <string name="zxing_msg_default_status">Plaats een barcode binnen de rechthoek om deze te scannen.</string>
 </resources>
